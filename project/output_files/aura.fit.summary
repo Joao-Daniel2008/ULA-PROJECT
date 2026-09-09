@@ -1,7 +1,7 @@
-Fitter Status : Successful - Wed Sep  9 17:52:05 2026
+Fitter Status : Successful - Wed Sep  9 20:01:25 2026
 Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : aura
-Top-level Entity Name : adder5bits
+Top-level Entity Name : Adder_Subtrator
 Family : Cyclone IV E
 Device : EP4CE55F29C7
 Timing Models : Final

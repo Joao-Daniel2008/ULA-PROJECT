@@ -4,19 +4,7 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "C0",
-					"strict" : false
-				},
-				{
-					"name" : "C1",
-					"strict" : false
-				},
-				{
-					"name" : "C2",
-					"strict" : false
-				},
-				{
-					"name" : "C3",
+					"name" : "CS",
 					"strict" : false
 				},
 				{
@@ -24,7 +12,39 @@
 					"strict" : false
 				},
 				{
-					"name" : "CS",
+					"name" : "C3",
+					"strict" : false
+				},
+				{
+					"name" : "C2",
+					"strict" : false
+				},
+				{
+					"name" : "C1",
+					"strict" : false
+				},
+				{
+					"name" : "C0",
+					"strict" : false
+				},
+				{
+					"name" : "p_m",
+					"strict" : false
+				},
+				{
+					"name" : "BS",
+					"strict" : false
+				},
+				{
+					"name" : "B3",
+					"strict" : false
+				},
+				{
+					"name" : "B2",
+					"strict" : false
+				},
+				{
+					"name" : "B1",
 					"strict" : false
 				},
 				{
@@ -36,14 +56,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "Cin",
-					"strict" : false
-				},
-				{
-					"name" : "B1",
-					"strict" : false
-				},
-				{
 					"name" : "A1",
 					"strict" : false
 				},
@@ -52,23 +64,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "B2",
-					"strict" : false
-				},
-				{
 					"name" : "A3",
 					"strict" : false
 				},
 				{
-					"name" : "B3",
-					"strict" : false
-				},
-				{
 					"name" : "AS",
-					"strict" : false
-				},
-				{
-					"name" : "BS",
 					"strict" : false
 				}
 			]

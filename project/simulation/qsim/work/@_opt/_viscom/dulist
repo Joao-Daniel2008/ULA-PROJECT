@@ -5,5 +5,6 @@
 2 21 cycloneive_lcell_comb 7 fast__1 58 C:/altera_lite/25.1std/questa_fse/intel/verilog/cycloneive 0 0 131072 0 223 0
 2 21 cycloneive_lcell_comb 7 fast__2 58 C:/altera_lite/25.1std/questa_fse/intel/verilog/cycloneive 0 0 131072 0 223 0
 2 21 cycloneive_lcell_comb 7 fast__3 58 C:/altera_lite/25.1std/questa_fse/intel/verilog/cycloneive 0 0 131072 0 223 0
-2 10 adder5bits 4 fast 82 C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/work 0 0 1490944 0 4495 0
-1 22 adder5bits_vlg_vec_tst 4 fast 82 C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/work 0 0 1490944 0 4635 0
+2 21 cycloneive_lcell_comb 7 fast__4 58 C:/altera_lite/25.1std/questa_fse/intel/verilog/cycloneive 0 0 131072 0 223 0
+2 15 Adder_Subtrator 4 fast 82 C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/work 0 0 180224 0 371 0
+1 27 Adder_Subtrator_vlg_vec_tst 4 fast 82 C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/work 0 0 0 0 140 0

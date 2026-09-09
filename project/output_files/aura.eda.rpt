@@ -1,5 +1,5 @@
 EDA Netlist Writer report for aura
-Wed Sep  9 18:49:57 2026
+Wed Sep  9 20:11:38 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -37,9 +37,9 @@ on the Quartus Prime software download page.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Sep  9 18:49:57 2026 ;
+; EDA Netlist Writer Status ; Successful - Wed Sep  9 20:11:38 2026 ;
 ; Revision Name             ; aura                                  ;
-; Top-level Entity Name     ; adder5bits                            ;
+; Top-level Entity Name     ; Adder_Subtrator                       ;
 ; Family                    ; Cyclone IV E                          ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -95,13 +95,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Altera and sold by Altera or its authorized distributors.  Please
     Info: refer to the Altera Software License Subscription Agreements 
     Info: on the Quartus Prime software download page.
-    Info: Processing started: Wed Sep  9 18:49:43 2026
+    Info: Processing started: Wed Sep  9 20:11:24 2026
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/ aura -c aura
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file aura.vo in folder "C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4675 megabytes
-    Info: Processing ended: Wed Sep  9 18:49:57 2026
+    Info: Processing ended: Wed Sep  9 20:11:38 2026
     Info: Elapsed time: 00:00:14
     Info: Total CPU time (on all processors): 00:00:01
 
