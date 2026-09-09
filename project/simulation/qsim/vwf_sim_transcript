@@ -1,32 +1,35 @@
 Determining the location of the ModelSim executable...
 
-Using: C:\InstallModelSim\modelsim_ase\win32aloem
+Using: C:/altera_lite/25.1std/questa_fse/win64
 
 To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
-Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+Note: if both Questa Intel FPGA Edition and ModelSim executables are available, Questa Intel FPGA Edition will be used.
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off aura -c aura --vector_source="C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/Waveform.vwf" --testbench_file="C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off aura -c aura --vector_source="C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/Waveform.vwf" --testbench_file="C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/Waveform.vwf.vt"
+
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
-    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
-    Info: Your use of Intel Corporation's design tools, logic functions 
-    Info: and other software and tools, and its AMPP partner logic 
+    Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+    Info: Copyright (C) 2025  Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
     Info: functions, and any output files from any of the foregoing 
     Info: (including device programming or simulation files), and any 
     Info: associated documentation or information are expressly subject 
-    Info: to the terms and conditions of the Intel Program License 
-    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
-    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera IP License Agreement, or other applicable license
     Info: agreement, including, without limitation, that your use is for
     Info: the sole purpose of programming logic devices manufactured by
-    Info: Intel and sold by Intel or its authorized distributors.  Please
-    Info: refer to the applicable agreement for further details.
-    Info: Processing started: Wed Sep 09 14:47:31 2026
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off aura -c aura --vector_source=C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/Waveform.vwf --testbench_file=C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim/Waveform.vwf.vt
+    Info: Altera and sold by Altera or its authorized distributors.  Please
+    Info: refer to the Altera Software License Subscription Agreements 
+    Info: on the Quartus Prime software download page.
+    Info: Processing started: Wed Sep  9 18:49:29 2026
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off aura -c aura --vector_source=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/Waveform.vwf --testbench_file=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/Waveform.vwf.vt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
 Completed successfully. 
@@ -35,102 +38,146 @@ Completed successfully.
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim/" aura -c aura
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/" aura -c aura
+
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
-    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
-    Info: Your use of Intel Corporation's design tools, logic functions 
-    Info: and other software and tools, and its AMPP partner logic 
+    Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+    Info: Copyright (C) 2025  Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
     Info: functions, and any output files from any of the foregoing 
     Info: (including device programming or simulation files), and any 
     Info: associated documentation or information are expressly subject 
-    Info: to the terms and conditions of the Intel Program License 
-    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
-    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera IP License Agreement, or other applicable license
     Info: agreement, including, without limitation, that your use is for
     Info: the sole purpose of programming logic devices manufactured by
-    Info: Intel and sold by Intel or its authorized distributors.  Please
-    Info: refer to the applicable agreement for further details.
-    Info: Processing started: Wed Sep 09 14:47:32 2026
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim/ aura -c aura
+    Info: Altera and sold by Altera or its authorized distributors.  Please
+    Info: refer to the Altera Software License Subscription Agreements 
+    Info: on the Quartus Prime software download page.
+    Info: Processing started: Wed Sep  9 18:49:43 2026
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/ aura -c aura
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file aura.vo in folder "C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file aura.vo in folder "C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4640 megabytes
-    Info: Processing ended: Wed Sep 09 14:47:33 2026
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 4675 megabytes
+    Info: Processing ended: Wed Sep  9 18:49:57 2026
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:01
 
 Completed successfully. 
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim/aura.do generated.
+C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/aura.do generated.
 
 Completed successfully. 
 
 **** Running the ModelSim simulation ****
 
-C:/InstallModelSim/modelsim_ase/win32aloem/vsim -c -do aura.do
+C:/altera_lite/25.1std/questa_fse/win64/vsim -c -do aura.do
 
 Reading pref.tcl
 
-# 2020.1
+
+# 2025.2
+
 
 # do aura.do
 
 # ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
 
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:47:34 on Sep 09,2026
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+
+# Start time: 18:50:00 on Sep 09,2026
 # vlog -work work aura.vo 
+# ** Note: (vlog-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
 
-# -- Compiling module Adder
+# -- Compiling module adder5bits
+
 # -- Compiling module hard_block
+
 # 
 # Top level modules:
-# 	Adder
-# End time: 14:47:34 on Sep 09,2026, Elapsed time: 0:00:00
+
+# 	adder5bits
+
+# End time: 18:50:00 on Sep 09,2026, Elapsed time: 0:00:00
+
 # Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:47:34 on Sep 09,2026
+
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+
+# Start time: 18:50:00 on Sep 09,2026
 # vlog -work work Waveform.vwf.vt 
+# ** Note: (vlog-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
 
-# -- Compiling module Adder_vlg_vec_tst
+# -- Compiling module adder5bits_vlg_vec_tst
+
 # 
+
 # Top level modules:
-# 	Adder_vlg_vec_tst
-# End time: 14:47:34 on Sep 09,2026, Elapsed time: 0:00:00
+# 	adder5bits_vlg_vec_tst
+
+# End time: 18:50:00 on Sep 09,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
-# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Adder_vlg_vec_tst 
-# Start time: 14:47:35 on Sep 09,2026
-# Loading work.Adder_vlg_vec_tst
-# Loading work.Adder
-# Loading work.hard_block
-# Loading cycloneive_ver.cycloneive_io_obuf
-# Loading cycloneive_ver.cycloneive_io_ibuf
-# Loading cycloneive_ver.cycloneive_lcell_comb
-# after#26
-# ** Note: $finish    : Waveform.vwf.vt(50)
-#    Time: 1 us  Iteration: 0  Instance: /Adder_vlg_vec_tst
+# ** Note: (vsim-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# vsim -voptargs=""+acc"" -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.adder5bits_vlg_vec_tst 
+# Start time: 18:50:01 on Sep 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
 
-# End time: 14:47:35 on Sep 09,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# Loading work.adder5bits_vlg_vec_tst(fast)
+# Loading work.adder5bits(fast)
+# Loading work.hard_block(fast)
+# Loading cycloneive_ver.cycloneive_io_obuf(fast)
+# Loading cycloneive_ver.cycloneive_io_ibuf(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__1)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__2)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__3)
+
+# after#29
+
+# ** Note: $finish    : Waveform.vwf.vt(75)
+#    Time: 1 us  Iteration: 0  Instance: /adder5bits_vlg_vec_tst
+
+# End time: 18:50:06 on Sep 09,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/Waveform.vwf...
+Reading C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/Waveform.vwf...
 
-Reading C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim/aura.msim.vcd...
+Reading C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/aura.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim/aura_20260909144735.sim.vwf
+Writing the resulting VWF to C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/aura_20260909185006.sim.vwf
 
 Finished VCD to VWF conversion.
 

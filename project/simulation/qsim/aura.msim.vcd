@@ -3,36 +3,68 @@ $comment
 		vcd file aura.msim.vcd -direction
 $end
 $date
-	Wed Sep 09 14:47:35 2026
+	Wed Sep  9 18:50:06 2026
 $end
 $version
-	ModelSim Version 2020.1
+	Questa Altera Starter FPGA Edition Version 2025.2
 $end
 $timescale
 	1ps
 $end
 
-$scope module Adder_vlg_vec_tst $end
-$var reg 1 ! A $end
-$var reg 1 " B $end
-$var reg 1 # C $end
-$var wire 1 $ Carry $end
-$var wire 1 % Display $end
+$scope module adder5bits_vlg_vec_tst $end
+$var reg 1 ! A0 $end
+$var reg 1 " A1 $end
+$var reg 1 # A2 $end
+$var reg 1 $ A3 $end
+$var reg 1 % AS $end
+$var reg 1 & B0 $end
+$var reg 1 ' B1 $end
+$var reg 1 ( B2 $end
+$var reg 1 ) B3 $end
+$var reg 1 * BS $end
+$var reg 1 + Cin $end
+$var wire 1 , C0 $end
+$var wire 1 - C1 $end
+$var wire 1 . C2 $end
+$var wire 1 / C3 $end
+$var wire 1 0 C4 $end
+$var wire 1 1 CS $end
 
 $scope module i1 $end
-$var wire 1 & gnd $end
-$var wire 1 ' vcc $end
-$var wire 1 ( unknown $end
-$var tri1 1 ) devclrn $end
-$var tri1 1 * devpor $end
-$var tri1 1 + devoe $end
-$var wire 1 , Display~output_o $end
-$var wire 1 - Carry~output_o $end
-$var wire 1 . C~input_o $end
-$var wire 1 / B~input_o $end
-$var wire 1 0 A~input_o $end
-$var wire 1 1 inst1~0_combout $end
-$var wire 1 2 inst4~0_combout $end
+$var wire 1 2 gnd $end
+$var wire 1 3 vcc $end
+$var wire 1 4 unknown $end
+$var tri1 1 5 devclrn $end
+$var tri1 1 6 devpor $end
+$var tri1 1 7 devoe $end
+$var wire 1 8 C0~output_o $end
+$var wire 1 9 C1~output_o $end
+$var wire 1 : C2~output_o $end
+$var wire 1 ; C3~output_o $end
+$var wire 1 < C4~output_o $end
+$var wire 1 = CS~output_o $end
+$var wire 1 > A0~input_o $end
+$var wire 1 ? B0~input_o $end
+$var wire 1 @ Cin~input_o $end
+$var wire 1 A inst|inst1~0_combout $end
+$var wire 1 B inst|inst4~0_combout $end
+$var wire 1 C B1~input_o $end
+$var wire 1 D A1~input_o $end
+$var wire 1 E inst2|inst1~combout $end
+$var wire 1 F inst2|inst4~0_combout $end
+$var wire 1 G A2~input_o $end
+$var wire 1 H B2~input_o $end
+$var wire 1 I inst3|inst1~combout $end
+$var wire 1 J inst3|inst4~0_combout $end
+$var wire 1 K A3~input_o $end
+$var wire 1 L B3~input_o $end
+$var wire 1 M inst4|inst1~combout $end
+$var wire 1 N BS~input_o $end
+$var wire 1 O inst4|inst4~0_combout $end
+$var wire 1 P AS~input_o $end
+$var wire 1 Q inst5|inst1~combout $end
+$var wire 1 R inst5|inst4~0_combout $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -44,11 +76,11 @@ $dumpvars
 0$
 0%
 0&
-1'
-x(
-1)
-1*
-1+
+0'
+0(
+0)
+0*
+0+
 0,
 0-
 0.
@@ -56,58 +88,364 @@ x(
 00
 01
 02
+13
+x4
+15
+16
+17
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
 $end
+#31250
+1!
+1>
+1A
+18
+1,
+#62500
+1"
+0!
+1D
+0>
+1E
+0A
+08
+19
+1-
+0,
+#93750
+1!
+1>
+1A
+18
+1,
 #125000
 1#
+0"
+0!
+1G
+0D
+0>
+1I
+0E
+0A
+08
+09
+1:
 1.
-11
+0-
+0,
+#156250
+1!
+1>
+1A
+18
 1,
-1%
-#250000
+#187500
 1"
+0!
+1D
+0>
+1E
+0A
+08
+19
+1-
+0,
+#218750
+1!
+1>
+1A
+18
+1,
+#250000
+1$
+1)
 0#
-1/
+0"
+0!
+1K
+1L
+0G
+0D
+0>
+1O
+0I
+0E
+0A
+08
+09
+0:
+1Q
 0.
+0-
+0,
+1<
+10
+#281250
+1!
+1>
+1A
+18
+1,
+#312500
+1"
+0!
+1D
+0>
+1E
+0A
+08
+19
+1-
+0,
+#343750
+1!
+1>
+1A
+18
+1,
 #375000
 1#
-1.
-12
-01
-0,
-1-
-1$
-0%
-#500000
-1!
 0"
-0#
-10
-0/
-0.
-02
-11
-1,
+0!
+1G
+0D
+0>
+1I
+0E
+0A
+08
+09
+1:
+1.
 0-
-0$
+0,
+#406250
+1!
+1>
+1A
+18
+1,
+#437500
+1"
+0!
+1D
+0>
+1E
+0A
+08
+19
+1-
+0,
+#468750
+1!
+1>
+1A
+18
+1,
+#500000
 1%
+1*
+0$
+0)
+0#
+0"
+0!
+1P
+1N
+0K
+0L
+0G
+0D
+0>
+1R
+0O
+0I
+0E
+0A
+08
+09
+0:
+1=
+0Q
+11
+0.
+0-
+0,
+0<
+00
+#531250
+1!
+1>
+1A
+18
+1,
+#562500
+1"
+0!
+1D
+0>
+1E
+0A
+08
+19
+1-
+0,
+#593750
+1!
+1>
+1A
+18
+1,
 #625000
 1#
+0"
+0!
+1G
+0D
+0>
+1I
+0E
+0A
+08
+09
+1:
 1.
-12
-01
+0-
 0,
-1-
-1$
-0%
-#750000
+#656250
+1!
+1>
+1A
+18
+1,
+#687500
 1"
+0!
+1D
+0>
+1E
+0A
+08
+19
+1-
+0,
+#718750
+1!
+1>
+1A
+18
+1,
+#750000
+1$
+1)
 0#
-1/
+0"
+0!
+1K
+1L
+0G
+0D
+0>
+1O
+0I
+0E
+0A
+08
+09
+0:
+1Q
 0.
+0-
+0,
+1<
+10
+#781250
+1!
+1>
+1A
+18
+1,
+#812500
+1"
+0!
+1D
+0>
+1E
+0A
+08
+19
+1-
+0,
+#843750
+1!
+1>
+1A
+18
+1,
 #875000
 1#
+0"
+0!
+1G
+0D
+0>
+1I
+0E
+0A
+08
+09
+1:
 1.
-11
+0-
+0,
+#906250
+1!
+1>
+1A
+18
 1,
-1%
+#937500
+1"
+0!
+1D
+0>
+1E
+0A
+08
+19
+1-
+0,
+#968750
+1!
+1>
+1A
+18
+1,
 #1000000

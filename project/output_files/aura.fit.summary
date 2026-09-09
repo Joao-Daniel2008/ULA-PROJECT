@@ -1,15 +1,15 @@
-Fitter Status : Successful - Wed Sep 09 14:46:28 2026
-Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Fitter Status : Successful - Wed Sep  9 17:52:05 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : aura
-Top-level Entity Name : Adder
+Top-level Entity Name : adder5bits
 Family : Cyclone IV E
 Device : EP4CE55F29C7
 Timing Models : Final
-Total logic elements : 2 / 55,856 ( < 1 % )
-    Total combinational functions : 2 / 55,856 ( < 1 % )
+Total logic elements : 10 / 55,856 ( < 1 % )
+    Total combinational functions : 10 / 55,856 ( < 1 % )
     Dedicated logic registers : 0 / 55,856 ( 0 % )
 Total registers : 0
-Total pins : 5 / 375 ( 1 % )
+Total pins : 17 / 375 ( 5 % )
 Total virtual pins : 0
 Total memory bits : 0 / 2,396,160 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 308 ( 0 % )

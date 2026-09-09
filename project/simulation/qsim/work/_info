@@ -1,128 +1,219 @@
 m255
 K4
 z2
-!s11f vlog 2020.1 2020.02, Feb 28 2020
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+!s11f MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Users/jdmm/Documents/project/simulation/qsim
-vAdder
-Z1 !s110 1788976054
-!i10b 1
-!s100 3nR[cI03YKS4>ek;m8CEQ3
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I;6HS:f<K1A5JPR[EVX5HL0
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 dC:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim
-Z5 w1788976053
-Z6 8aura.vo
-Z7 Faura.vo
-!i122 20
-L0 31 140
-Z8 OV;L;2020.1;71
-r1
-!s85 0
-31
-Z9 !s108 1788976054.000000
-Z10 !s107 aura.vo|
-Z11 !s90 -work|work|aura.vo|
-!i113 1
-Z12 o-work work
-Z13 tCvgOpt 0
-n@adder
-vAdder_vlg_vec_tst
+Z3 dD:/Users/jdmm/Documents/project/simulation/qsim
+T_opt
+!i145 1
+!i144 0
+!s110 1788987464
+VWIE1VbnVjO;G<1Yz^mRG=3
+Z4 04 22 4 work adder5bits_vlg_vec_tst fast 0
+=1-940853987819-6aa1c847-c1-2090
 R1
-!i10b 1
-!s100 SKEdE[hnZO[I2GhbV08f50
-R2
-I0O1OC3VbCNc[[N9[KOCnl0
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM10U3 
+Z8 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver
+Z9 tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+Z10 OL;O;2025.2;82
 R3
+T_opt1
+!i145 1
+!i144 0
+!s110 1788990605
+VFFfWKRHa3kKD9[Gj[mIj`3
 R4
-w1788976052
-8Waveform.vwf.vt
-FWaveform.vwf.vt
-!i122 21
-L0 29 48
-R8
-r1
-!s85 0
-31
-R9
-!s107 Waveform.vwf.vt|
-!s90 -work|work|Waveform.vwf.vt|
-!i113 1
-R12
-R13
-n@adder_vlg_vec_tst
-vaura
-Z14 !s110 1788965247
-!i10b 1
-!s100 8MUSQ]H@@W:7nXULc4je:0
-R2
-IA8l694]Vc]:zZijKCAL9b0
-R3
-R0
-Z15 w1788965246
+=1-940853987819-6aa1d48c-78-2970
+R1
+R5
 R6
 R7
-!i122 18
-L0 32 372
 R8
+o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+R9
+n@_opt1
+R10
+vAdder
+Z11 !s110 1788976054
+!i10b 1
+!s100 3nR[cI03YKS4>ek;m8CEQ3
+Z12 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;6HS:f<K1A5JPR[EVX5HL0
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 dC:/Users/jdmm/Downloads/ULA-PROJECT-main/project/simulation/qsim
+w1788976053
+Z15 8aura.vo
+Z16 Faura.vo
+!i122 20
+L0 31 140
+Z17 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z16 !s108 1788965247.000000
-R10
-R11
+Z18 !s108 1788976054.000000
+Z19 !s107 aura.vo|
+Z20 !s90 -work|work|aura.vo|
 !i113 1
-R12
+Z21 o-work work
+Z22 tCvgOpt 0
+n@adder
+vadder5bits
+Z23 2aura.vo
+Z24 !s110 1788990600
+!i10b 1
+!s100 @SdZQ_H9ceeV8GkPO8f6M3
+IP9]k_;]Abk`GR;MjeHR0z1
+Z25 dC:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim
+Z26 w1788990597
+R15
+R16
+!i122 42
+L0 32 472
 R13
-vaura_vlg_vec_tst
+Z27 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z28 !s108 1788990600.000000
+R19
+R20
+!i113 0
+Z29 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z30 tCvgOpt 0 defaultOptions 1085333592
+vadder5bits_vlg_vec_tst
+2Waveform.vwf.vt
+R24
+!i10b 1
+!s100 B2WeeYhoZc053;Z9hHEg01
+ISFb_7FZdl1=;Pzk0mo1IE1
+R25
+w1788990583
+Z31 8Waveform.vwf.vt
+Z32 FWaveform.vwf.vt
+!i122 43
+L0 30 128
+R13
+R27
+r1
+!s85 0
+31
+R28
+Z33 !s107 Waveform.vwf.vt|
+Z34 !s90 -work|work|Waveform.vwf.vt|
+!i113 0
+R29
+R30
+vAdder_vlg_vec_tst
+R11
+!i10b 1
+!s100 SKEdE[hnZO[I2GhbV08f50
+R12
+I0O1OC3VbCNc[[N9[KOCnl0
+R13
 R14
+w1788976052
+R31
+R32
+!i122 21
+L0 29 48
+R17
+r1
+!s85 0
+31
+R18
+R33
+R34
+!i113 1
+R21
+R22
+n@adder_vlg_vec_tst
+vaura
+Z35 !s110 1788965247
+!i10b 1
+!s100 8MUSQ]H@@W:7nXULc4je:0
+R12
+IA8l694]Vc]:zZijKCAL9b0
+R13
+R3
+Z36 w1788965246
+R15
+R16
+!i122 18
+L0 32 372
+R17
+r1
+!s85 0
+31
+Z37 !s108 1788965247.000000
+R19
+R20
+!i113 1
+R21
+R22
+vaura_vlg_vec_tst
+R35
 !i10b 1
 !s100 BNN@UQK5FFb73:QG5E8>B0
-R2
+R12
 IoB9=kZ:@i9zW`SK2K2Vmi1
+R13
 R3
-R0
-R15
+R36
 8Waveform1.vwf.vt
 FWaveform1.vwf.vt
 !i122 19
 L0 30 72
-R8
+R17
 r1
 !s85 0
 31
-R16
+R37
 !s107 Waveform1.vwf.vt|
 !s90 -work|work|Waveform1.vwf.vt|
 !i113 1
-R12
-R13
+R21
+R22
 vhard_block
-R1
+R23
+R24
 !i10b 1
-!s100 JBEFAXJ7>o@LZnTOlSASb0
-R2
-IKhTBmUc`[iU:>:kLDQ2Gd2
-R3
-R4
-R5
-R6
-R7
-!i122 20
-L0 172 34
-R8
+!s100 B86fR][:EC:7UfH2ELVeZ1
+IhZZ;UP0ZM9Y0KdK9k]HKW2
+R25
+R26
+R15
+R16
+!i122 42
+L0 505 34
+R13
+R27
 r1
 !s85 0
 31
-R9
-R10
-R11
-!i113 1
-R12
-R13
+R28
+R19
+R20
+!i113 0
+R29
+R30
