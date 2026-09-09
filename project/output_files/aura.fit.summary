@@ -1,15 +1,15 @@
-Fitter Status : Successful - Wed Sep  9 11:48:07 2026
-Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Fitter Status : Successful - Wed Sep 09 14:46:28 2026
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : aura
-Top-level Entity Name : aura
+Top-level Entity Name : Adder
 Family : Cyclone IV E
 Device : EP4CE55F29C7
 Timing Models : Final
-Total logic elements : 7 / 55,856 ( < 1 % )
-    Total combinational functions : 7 / 55,856 ( < 1 % )
+Total logic elements : 2 / 55,856 ( < 1 % )
+    Total combinational functions : 2 / 55,856 ( < 1 % )
     Dedicated logic registers : 0 / 55,856 ( 0 % )
 Total registers : 0
-Total pins : 13 / 375 ( 3 % )
+Total pins : 5 / 375 ( 1 % )
 Total virtual pins : 0
 Total memory bits : 0 / 2,396,160 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 308 ( 0 % )
