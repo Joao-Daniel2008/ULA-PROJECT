@@ -1,5 +1,5 @@
 Flow report for aura
-Wed Sep  9 20:11:38 2026
+Thu Sep 10 19:15:25 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -41,18 +41,18 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Sep  9 20:11:38 2026           ;
+; Flow Status                        ; Successful - Thu Sep 10 19:15:25 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; aura                                            ;
-; Top-level Entity Name              ; Adder_Subtrator                                 ;
+; Top-level Entity Name              ; sixBitsToBcd                                    ;
 ; Family                             ; Cyclone IV E                                    ;
 ; Device                             ; EP4CE55F29C7                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 10 / 55,856 ( < 1 % )                           ;
-;     Total combinational functions  ; 10 / 55,856 ( < 1 % )                           ;
+; Total logic elements               ; 2 / 55,856 ( < 1 % )                            ;
+;     Total combinational functions  ; 2 / 55,856 ( < 1 % )                            ;
 ;     Dedicated logic registers      ; 0 / 55,856 ( 0 % )                              ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 17 / 375 ( 5 % )                                ;
+; Total pins                         ; 7 / 375 ( 2 % )                                 ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 2,396,160 ( 0 % )                           ;
 ; Embedded Multiplier 9-bit elements ; 0 / 308 ( 0 % )                                 ;
@@ -65,36 +65,36 @@ on the Quartus Prime software download page.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/09/2026 20:00:45 ;
+; Start date & time ; 09/10/2026 19:14:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; aura                ;
 +-------------------+---------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                   ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+-----------------------------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name     ; Section Id                        ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 2543366694156.178899484505196          ; --            ; --              ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --              ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --              ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --              ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --              ; eda_board_design_symbol           ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --              ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                 ; QuestaSim (Verilog)                    ; <None>        ; --              ; --                                ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --              ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --              ; --                                ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --              ; --                                ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --              ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; Adder_Subtrator ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; Adder_Subtrator ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; Adder_Subtrator ; Top                               ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --              ; --                                ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --              ; --                                ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --              ; --                                ;
-; TOP_LEVEL_ENTITY                    ; Adder_Subtrator                        ; aura          ; --              ; --                                ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+-----------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name  ; Section Id                        ;
++-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID               ; 2543366694156.178907844811936          ; --            ; --           ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --           ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                 ; QuestaSim (Verilog)                    ; <None>        ; --           ; --                                ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --           ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --           ; --                                ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --           ; --                                ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --           ; --                                ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; sixBitsToBcd ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; sixBitsToBcd ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; sixBitsToBcd ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --           ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --           ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --           ; --                                ;
+; TOP_LEVEL_ENTITY                    ; sixBitsToBcd                           ; aura          ; --           ; --                                ;
++-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -102,18 +102,12 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:28     ; 1.0                     ; 4799 MB             ; 00:00:38                           ;
-; Fitter               ; 00:00:24     ; 1.0                     ; 5944 MB             ; 00:00:14                           ;
-; Assembler            ; 00:00:20     ; 1.0                     ; 4844 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:15     ; 1.0                     ; 4876 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:13     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:13     ; 1.0                     ; 4658 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:13     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:14     ; 1.0                     ; 4658 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:13     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:13     ; 1.0                     ; 4658 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:14     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
-; Total                ; 00:03:00     ; --                      ; --                  ; 00:01:04                           ;
+; Analysis & Synthesis ; 00:00:25     ; 1.0                     ; 4799 MB             ; 00:00:38                           ;
+; Fitter               ; 00:00:20     ; 1.0                     ; 5944 MB             ; 00:00:14                           ;
+; Assembler            ; 00:00:14     ; 1.0                     ; 4844 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:11     ; 1.0                     ; 4868 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:10     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
+; Total                ; 00:01:20     ; --                      ; --                  ; 00:00:58                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -127,12 +121,6 @@ on the Quartus Prime software download page.
 ; Assembler            ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; Notebook-João-Daniel ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+----------------------+------------+------------+----------------+
 
 
@@ -144,12 +132,6 @@ quartus_fit --read_settings_files=off --write_settings_files=off aura -c aura
 quartus_asm --read_settings_files=off --write_settings_files=off aura -c aura
 quartus_sta aura -c aura
 quartus_eda --read_settings_files=off --write_settings_files=off aura -c aura
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off aura -c aura --vector_source=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/Waveform2.vwf --testbench_file=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/Waveform2.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/ aura -c aura
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off aura -c aura --vector_source=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/Waveform2.vwf --testbench_file=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/Waveform2.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/ aura -c aura
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off aura -c aura --vector_source=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/Waveform2.vwf --testbench_file=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/Waveform2.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Micro/OneDrive/Documentos/GitHub/ULA-PROJECT/project/simulation/qsim/ aura -c aura
 
 
 

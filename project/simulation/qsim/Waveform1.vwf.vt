@@ -19,93 +19,77 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "09/09/2026 19:49:16"
+// Generated on "09/10/2026 18:22:21"
                                                                                 
-// Verilog Test Bench (with test vectors) for design :                          complement
+// Verilog Test Bench (with test vectors) for design :                          FiveBitToBcd
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module complement_vlg_vec_tst();
+module FiveBitToBcd_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg i;
-reg n0;
-reg n1;
-reg n2;
-reg n3;
-reg n4;
+reg [4:0] E;
 // wires                                               
-wire s0;
-wire s1;
-wire s2;
-wire s3;
-wire s4;
+wire S0;
+wire S1;
+wire S2;
+wire S3;
+wire S4;
 
 // assign statements (if any)                          
-complement i1 (
+FiveBitToBcd i1 (
 // port map - connection between master ports and signals/registers   
-	.i(i),
-	.n0(n0),
-	.n1(n1),
-	.n2(n2),
-	.n3(n3),
-	.n4(n4),
-	.s0(s0),
-	.s1(s1),
-	.s2(s2),
-	.s3(s3),
-	.s4(s4)
+	.E(E),
+	.S0(S0),
+	.S1(S1),
+	.S2(S2),
+	.S3(S3),
+	.S4(S4)
 );
 initial 
 begin 
 #1000000 $finish;
 end 
 
-// i
-initial
-begin
-	i = 1'b1;
-end 
-
-// n0
+// E[0]
 always
 begin
-	n0 = 1'b0;
-	n0 = #31250 1'b1;
+	E[0] = 1'b0;
+	E[0] = #31250 1'b1;
 	#31250;
 end 
 
-// n1
+// E[1]
 always
 begin
-	n1 = 1'b0;
-	n1 = #62500 1'b1;
+	E[1] = 1'b0;
+	E[1] = #62500 1'b1;
 	#62500;
 end 
 
-// n2
+// E[2]
 always
 begin
-	n2 = 1'b0;
-	n2 = #125000 1'b1;
+	E[2] = 1'b0;
+	E[2] = #125000 1'b1;
 	#125000;
 end 
 
-// n3
+// E[3]
 always
 begin
-	n3 = 1'b0;
-	n3 = #250000 1'b1;
+	E[3] = 1'b0;
+	E[3] = #250000 1'b1;
 	#250000;
 end 
 
-// n4
+// E[4]
 always
 begin
-	n4 = 1'b0;
-	n4 = #500000 1'b1;
+	E[4] = 1'b0;
+	E[4] = #500000 1'b1;
 	#500000;
 end 
 endmodule

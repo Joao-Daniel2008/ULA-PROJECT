@@ -19,126 +19,78 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "09/09/2026 20:11:23"
+// Generated on "09/10/2026 18:38:15"
                                                                                 
-// Verilog Test Bench (with test vectors) for design :                          Adder_Subtrator
+// Verilog Test Bench (with test vectors) for design :                          FiveBitToBcd
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module Adder_Subtrator_vlg_vec_tst();
+module FiveBitToBcd_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg A0;
-reg A1;
-reg A2;
-reg A3;
-reg AS;
-reg B0;
-reg B1;
-reg B2;
-reg B3;
-reg BS;
-reg p_m;
+reg [4:0] E;
 // wires                                               
-wire C0;
-wire C1;
-wire C2;
-wire C3;
-wire C4;
-wire CS;
+wire S0;
+wire S1;
+wire S2;
+wire S3;
+wire S4;
 
 // assign statements (if any)                          
-Adder_Subtrator i1 (
+FiveBitToBcd i1 (
 // port map - connection between master ports and signals/registers   
-	.A0(A0),
-	.A1(A1),
-	.A2(A2),
-	.A3(A3),
-	.AS(AS),
-	.B0(B0),
-	.B1(B1),
-	.B2(B2),
-	.B3(B3),
-	.BS(BS),
-	.C0(C0),
-	.C1(C1),
-	.C2(C2),
-	.C3(C3),
-	.C4(C4),
-	.CS(CS),
-	.p_m(p_m)
+	.E(E),
+	.S0(S0),
+	.S1(S1),
+	.S2(S2),
+	.S3(S3),
+	.S4(S4)
 );
 initial 
 begin 
 #1000000 $finish;
 end 
 
-// A0
-initial
+// E[0]
+always
 begin
-	A0 = 1'b0;
+	E[0] = 1'b0;
+	E[0] = #31250 1'b1;
+	#31250;
 end 
 
-// A1
-initial
+// E[1]
+always
 begin
-	A1 = 1'b1;
+	E[1] = 1'b0;
+	E[1] = #62500 1'b1;
+	#62500;
 end 
 
-// A2
-initial
+// E[2]
+always
 begin
-	A2 = 1'b0;
+	E[2] = 1'b0;
+	E[2] = #125000 1'b1;
+	#125000;
 end 
 
-// A3
-initial
+// E[3]
+always
 begin
-	A3 = 1'b0;
+	E[3] = 1'b0;
+	E[3] = #250000 1'b1;
+	#250000;
 end 
 
-// AS
-initial
+// E[4]
+always
 begin
-	AS = 1'b0;
-end 
-
-// B0
-initial
-begin
-	B0 = 1'b1;
-end 
-
-// B1
-initial
-begin
-	B1 = 1'b1;
-end 
-
-// B2
-initial
-begin
-	B2 = 1'b0;
-end 
-
-// B3
-initial
-begin
-	B3 = 1'b0;
-end 
-
-// BS
-initial
-begin
-	BS = 1'b0;
-end 
-
-// p_m
-initial
-begin
-	p_m = 1'b1;
+	E[4] = 1'b0;
+	E[4] = #500000 1'b1;
+	#500000;
 end 
 endmodule
 

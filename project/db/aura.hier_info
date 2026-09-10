@@ -1,114 +1,12 @@
-|Adder_Subtrator
-CS <= adder5bits:inst.CS
-AS => adder5bits:inst.AS
-A3 => adder5bits:inst.A3
-A2 => adder5bits:inst.A2
-A1 => adder5bits:inst.A1
-A0 => adder5bits:inst.A0
-BS => complement:inst2.n4
-B3 => complement:inst2.n3
-B2 => complement:inst2.n2
-B1 => complement:inst2.n1
-B0 => complement:inst2.n0
-p_m => complement:inst2.i
-p_m => adder5bits:inst.Cin
-C4 <= adder5bits:inst.C4
-C3 <= adder5bits:inst.C3
-C2 <= adder5bits:inst.C2
-C1 <= adder5bits:inst.C1
-C0 <= adder5bits:inst.C0
-
-
-|Adder_Subtrator|adder5bits:inst
-C0 <= Adder:inst.Display
-A0 => Adder:inst.A
-B0 => Adder:inst.B
-Cin => Adder:inst.Cin
-C1 <= Adder:inst2.Display
-A1 => Adder:inst2.A
-B1 => Adder:inst2.B
-C2 <= Adder:inst3.Display
-A2 => Adder:inst3.A
-B2 => Adder:inst3.B
-C3 <= Adder:inst4.Display
-A3 => Adder:inst4.A
-B3 => Adder:inst4.B
-C4 <= Adder:inst5.Display
-AS => Adder:inst5.A
-BS => Adder:inst5.B
-CS <= Adder:inst5.Cout
-
-
-|Adder_Subtrator|adder5bits:inst|Adder:inst
-Display <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-Cin => inst1.IN1
-Cin => inst3.IN1
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Adder_Subtrator|adder5bits:inst|Adder:inst2
-Display <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-Cin => inst1.IN1
-Cin => inst3.IN1
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Adder_Subtrator|adder5bits:inst|Adder:inst3
-Display <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-Cin => inst1.IN1
-Cin => inst3.IN1
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Adder_Subtrator|adder5bits:inst|Adder:inst4
-Display <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-Cin => inst1.IN1
-Cin => inst3.IN1
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Adder_Subtrator|adder5bits:inst|Adder:inst5
-Display <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-Cin => inst1.IN1
-Cin => inst3.IN1
-Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Adder_Subtrator|complement:inst2
-s4 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-n4 => inst.IN0
-i => inst.IN1
-i => inst1.IN1
-i => inst2.IN1
-i => inst3.IN1
-i => inst4.IN1
-s3 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-n3 => inst1.IN0
-s2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-n2 => inst2.IN0
-s1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-n1 => inst3.IN0
-s0 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-n0 => inst4.IN0
+|sixBitsToBcd
+S5 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+E[0] => inst5.IN0
+E[1] => inst5.IN1
+E[2] => inst4.IN0
+E[3] => inst4.IN1
+E[4] => inst1.IN0
+E[4] => inst2.IN1
+E[5] => inst3.IN0
+E[5] => inst.IN0
 
 

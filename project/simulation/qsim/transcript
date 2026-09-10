@@ -2,29 +2,29 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # Errors: 0, Warnings: 1
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 20:11:40 on Sep 09,2026
+# Start time: 18:38:28 on Sep 10,2026
 # vlog -work work aura.vo 
 # ** Note: (vlog-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
-# -- Compiling module Adder_Subtrator
+# -- Compiling module FiveBitToBcd
 # -- Compiling module hard_block
 # 
 # Top level modules:
-# 	Adder_Subtrator
-# End time: 20:11:41 on Sep 09,2026, Elapsed time: 0:00:01
+# 	FiveBitToBcd
+# End time: 18:38:28 on Sep 10,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 20:11:41 on Sep 09,2026
+# Start time: 18:38:28 on Sep 10,2026
 # vlog -work work Waveform2.vwf.vt 
 # ** Note: (vlog-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
-# -- Compiling module Adder_Subtrator_vlg_vec_tst
+# -- Compiling module FiveBitToBcd_vlg_vec_tst
 # 
 # Top level modules:
-# 	Adder_Subtrator_vlg_vec_tst
-# End time: 20:11:41 on Sep 09,2026, Elapsed time: 0:00:00
+# 	FiveBitToBcd_vlg_vec_tst
+# End time: 18:38:28 on Sep 10,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # ** Note: (vsim-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
-# vsim -voptargs=""+acc"" -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Adder_Subtrator_vlg_vec_tst 
-# Start time: 20:11:42 on Sep 09,2026
+# vsim -voptargs=""+acc"" -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.FiveBitToBcd_vlg_vec_tst 
+# Start time: 18:38:29 on Sep 10,2026
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
 # ** Note: (vopt-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
@@ -43,8 +43,8 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-# Loading work.Adder_Subtrator_vlg_vec_tst(fast)
-# Loading work.Adder_Subtrator(fast)
+# Loading work.FiveBitToBcd_vlg_vec_tst(fast)
+# Loading work.FiveBitToBcd(fast)
 # Loading work.hard_block(fast)
 # Loading cycloneive_ver.cycloneive_io_obuf(fast)
 # Loading cycloneive_ver.cycloneive_io_ibuf(fast)
@@ -53,8 +53,13 @@
 # Loading cycloneive_ver.cycloneive_lcell_comb(fast__2)
 # Loading cycloneive_ver.cycloneive_lcell_comb(fast__3)
 # Loading cycloneive_ver.cycloneive_lcell_comb(fast__4)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__5)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__6)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__7)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__8)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__9)
 # after#29
-# ** Note: $finish    : Waveform2.vwf.vt(75)
-#    Time: 1 us  Iteration: 0  Instance: /Adder_Subtrator_vlg_vec_tst
-# End time: 20:11:47 on Sep 09,2026, Elapsed time: 0:00:05
+# ** Note: $finish    : Waveform2.vwf.vt(53)
+#    Time: 1 us  Iteration: 0  Instance: /FiveBitToBcd_vlg_vec_tst
+# End time: 18:38:35 on Sep 10,2026, Elapsed time: 0:00:06
 # Errors: 0, Warnings: 1
