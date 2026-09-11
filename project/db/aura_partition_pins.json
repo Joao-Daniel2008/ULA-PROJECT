@@ -8,11 +8,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "E[1]",
+					"name" : "S4",
 					"strict" : false
 				},
 				{
-					"name" : "E[0]",
+					"name" : "E[4]",
 					"strict" : false
 				},
 				{
@@ -24,11 +24,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "E[4]",
+					"name" : "E[1]",
 					"strict" : false
 				},
 				{
-					"name" : "E[5]",
+					"name" : "E[0]",
 					"strict" : false
 				}
 			]

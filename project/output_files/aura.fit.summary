@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu Sep 10 19:14:45 2026
-Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Fitter Status : Successful - Fri Sep 11 15:00:56 2026
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 Revision Name : aura
-Top-level Entity Name : sixBitsToBcd
+Top-level Entity Name : SixBitsToBcdNegative
 Family : Cyclone IV E
 Device : EP4CE55F29C7
 Timing Models : Final
-Total logic elements : 2 / 55,856 ( < 1 % )
-    Total combinational functions : 2 / 55,856 ( < 1 % )
+Total logic elements : 4 / 55,856 ( < 1 % )
+    Total combinational functions : 4 / 55,856 ( < 1 % )
     Dedicated logic registers : 0 / 55,856 ( 0 % )
 Total registers : 0
 Total pins : 7 / 375 ( 2 % )

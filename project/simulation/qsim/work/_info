@@ -90,6 +90,7 @@ R9
 R10
 n@_opt1
 R11
+R4
 T_opt2
 !i145 1
 !i144 0
@@ -492,7 +493,7 @@ Z60 !s110 1789076308
 !s100 FKe1;GlE_nD:VK^VaB9Qc3
 IV;1ODQB17jfeR16jXW=KV2
 R26
-Z61 w1789076305
+w1789076305
 R16
 R17
 !i122 78
@@ -502,7 +503,7 @@ R28
 r1
 !s85 0
 31
-Z62 !s108 1789076308.000000
+Z61 !s108 1789076308.000000
 R20
 R21
 !i113 0
@@ -526,7 +527,7 @@ R28
 r1
 !s85 0
 31
-R62
+R61
 R42
 R43
 !i113 0
@@ -534,25 +535,121 @@ R30
 R31
 n@five@bit@to@bcd_vlg_vec_tst
 vhard_block
-R24
-R60
+Z62 !s110 1789149334
 !i10b 1
-!s100 RFP7MW`6QmE[6d=CWL8AL1
-IcIG:efekUNCPzkBeU@PLH1
-R26
-R61
+!s100 f7cZ2M;MObQdE:d>l_dc;0
+R13
+ISBboILTYWgRl_gB?:hg=;0
+R14
+Z63 dD:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
+Z64 w1789149333
 R16
 R17
-!i122 78
-L0 395 34
-R14
-R28
+!i122 88
+L0 229 34
+R18
 r1
 !s85 0
 31
-R62
+Z65 !s108 1789149334.000000
 R20
 R21
-!i113 0
-R30
-R31
+!i113 1
+R22
+R23
+vSixBitsToBcdNegative
+R62
+!i10b 1
+!s100 OPz<K<k]6A9ECh7D6NFzR2
+R13
+IMQz4@<QLzTSUilGzZW@m70
+R14
+R63
+R64
+R16
+R17
+!i122 88
+L0 32 196
+R18
+r1
+!s85 0
+31
+R65
+R20
+R21
+!i113 1
+R22
+R23
+n@six@bits@to@bcd@negative
+vSixBitsToBcdNegative_vlg_vec_tst
+!s110 1789149335
+!i10b 1
+!s100 ?JIc;fh4V_NmP13j=D^Vk2
+R13
+I<;fiFOOBHaFc]G5B9S=B@3
+R14
+R63
+R64
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+!i122 89
+L0 30 60
+R18
+r1
+!s85 0
+31
+R65
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R22
+R23
+n@six@bits@to@bcd@negative_vlg_vec_tst
+vSixBitsToBcdPositive
+Z66 !s110 1789149238
+!i10b 1
+!s100 eI?kXKaI^]ll<JWN2[4[R0
+R13
+II^FGMS896Y5^MmbS]F^H32
+R14
+R63
+Z67 w1789149237
+R16
+R17
+!i122 86
+L0 32 290
+R18
+r1
+!s85 0
+31
+Z68 !s108 1789149238.000000
+R20
+R21
+!i113 1
+R22
+R23
+n@six@bits@to@bcd@positive
+vSixBitsToBcdPositive_vlg_vec_tst
+R66
+!i10b 1
+!s100 OCh9Bj[]f87A5C;fMmi7L3
+R13
+IH1G@EHe]CRn[N7W4YHe^B0
+R14
+R63
+R67
+R40
+R41
+!i122 87
+L0 30 68
+R18
+r1
+!s85 0
+31
+R68
+R42
+R43
+!i113 1
+R22
+R23
+n@six@bits@to@bcd@positive_vlg_vec_tst
