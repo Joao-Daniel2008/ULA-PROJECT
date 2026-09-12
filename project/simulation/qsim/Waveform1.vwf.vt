@@ -1,17 +1,17 @@
-// Copyright (C) 2022  Intel Corporation. All rights reserved.
-// Your use of Intel Corporation's design tools, logic functions 
+// Copyright (C) 2025  Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
 // and other software and tools, and any partner logic 
 // functions, and any output files from any of the foregoing 
 // (including device programming or simulation files), and any 
 // associated documentation or information are expressly subject 
-// to the terms and conditions of the Intel Program License 
-// Subscription Agreement, the Intel Quartus Prime License Agreement,
-// the Intel FPGA IP License Agreement, or other applicable license
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera IP License Agreement, or other applicable license
 // agreement, including, without limitation, that your use is for
 // the sole purpose of programming logic devices manufactured by
-// Intel and sold by Intel or its authorized distributors.  Please
-// refer to the applicable agreement for further details, at
-// https://fpgasoftware.intel.com/eula.
+// Altera and sold by Altera or its authorized distributors.  Please
+// refer to the Altera Software License Subscription Agreements 
+// on the Quartus Prime software download page.
 
 // *****************************************************************************
 // This file contains a Verilog test bench with test vectors .The test vectors  
@@ -19,79 +19,83 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "09/11/2026 14:01:32"
+// Generated on "09/11/2026 22:19:32"
                                                                                 
-// Verilog Test Bench (with test vectors) for design :                          SixBitsToBcdPositive
+// Verilog Test Bench (with test vectors) for design :                          aura
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module SixBitsToBcdPositive_vlg_vec_tst();
+module aura_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg [4:0] E;
+reg BIT_S;
+reg S0;
+reg S1;
+reg S2;
+reg S3;
 // wires                                               
-wire S0;
-wire S1;
-wire S2;
-wire S3;
-wire S4;
-wire S5;
+wire A;
+wire B;
+wire C;
+wire D;
+wire E;
+wire F;
+wire G;
+wire M;
 
 // assign statements (if any)                          
-SixBitsToBcdPositive i1 (
+aura i1 (
 // port map - connection between master ports and signals/registers   
+	.A(A),
+	.B(B),
+	.BIT_S(BIT_S),
+	.C(C),
+	.D(D),
 	.E(E),
+	.F(F),
+	.G(G),
+	.M(M),
 	.S0(S0),
 	.S1(S1),
 	.S2(S2),
-	.S3(S3),
-	.S4(S4),
-	.S5(S5)
+	.S3(S3)
 );
 initial 
 begin 
 #1000000 $finish;
 end 
 
-// E[0]
+// S0
 always
 begin
-	E[0] = 1'b0;
-	E[0] = #31250 1'b1;
-	#31250;
-end 
-
-// E[1]
-always
-begin
-	E[1] = 1'b0;
-	E[1] = #62500 1'b1;
+	S0 = 1'b0;
+	S0 = #62500 1'b1;
 	#62500;
 end 
 
-// E[2]
+// S1
 always
 begin
-	E[2] = 1'b0;
-	E[2] = #125000 1'b1;
+	S1 = 1'b0;
+	S1 = #125000 1'b1;
 	#125000;
 end 
 
-// E[3]
+// S2
 always
 begin
-	E[3] = 1'b0;
-	E[3] = #250000 1'b1;
+	S2 = 1'b0;
+	S2 = #250000 1'b1;
 	#250000;
 end 
 
-// E[4]
+// S3
 always
 begin
-	E[4] = 1'b0;
-	E[4] = #500000 1'b1;
+	S3 = 1'b0;
+	S3 = #500000 1'b1;
 	#500000;
 end 
 endmodule

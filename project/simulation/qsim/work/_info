@@ -1,53 +1,85 @@
 m255
 K4
 z2
-Z0 !s12c _opt1
+Z0 !s12c _opt
 Z1 !s99 nomlopt
 R0
 R1
-Z2 !s12c _opt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt1
+R1
+R0
 R1
 Z3 !s12c _opt2
 R1
-R0
-R1
 R2
 R1
 R2
 R1
-R3
-R1
 R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R0
-R1
-R2
-R1
-R2
-R1
-R2
 R1
 R3
 R1
 R3
 R1
+R3
+R1
+R3
+R1
+R2
+R1
+R2
+R1
 R0
+R1
+R3
+R1
+R2
 R1
 R0
 R1
 R0
+R1
+R3
 R1
 R2
 R1
 R2
 R1
 R2
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R3
+R1
+R3
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+R0
 R1
 !s11f MIXED_VERSIONS
 13
@@ -60,10 +92,10 @@ Z4 dD:/Users/jdmm/Documents/project/simulation/qsim
 T_opt
 !i145 1
 !i144 0
-!s110 1789068151
-VFGL?DlFlBW=jER7F6_2Hh1
-04 24 4 work Comp_smaller_vlg_vec_tst fast 0
-=1-940853987819-6aa30376-104-3d44
+!s110 1789184433
+Vi^I^8<odQ4ZT;zU?H>d3_1
+04 16 4 work Main_vlg_vec_tst fast 0
+=1-940853987819-6aa4c9af-304-2b4c
 R1
 Z5 !s12f OEM100
 Z6 !s12b OEM100
@@ -73,14 +105,13 @@ Z9 o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L al
 Z10 tCvgOpt 0 defaultOptions 1107585188
 n@_opt
 Z11 OL;O;2025.2;82
-R4
 T_opt1
 !i145 1
 !i144 0
-!s110 1789076313
-V=DJmkNVD_G7g:URbE4A811
-04 24 4 work FiveBitToBcd_vlg_vec_tst fast 0
-=1-940853987819-6aa32358-7d-af4
+!s110 1789181932
+V<iXR^IN:12k<fd[f0dNB:3
+04 17 4 work teste_vlg_vec_tst fast 0
+=1-940853987819-6aa4bfeb-87-850
 R1
 R5
 R6
@@ -94,10 +125,10 @@ R4
 T_opt2
 !i145 1
 !i144 0
-!s110 1789067505
-V06N^SCiUSNh`Q359U<RYj0
-04 23 4 work Comp_bigger_vlg_vec_tst fast 0
-=1-940853987819-6aa300ef-3d5-3b98
+!s110 1789175994
+Vnz6`]ZL`hd=mcMeK0PQ;L2
+04 16 4 work aura_vlg_vec_tst fast 0
+=1-940853987819-6aa4a8b8-37f-1af8
 R1
 R5
 R6
@@ -251,51 +282,51 @@ R22
 R23
 n@adder_vlg_vec_tst
 vaura
-Z44 !s110 1788965247
+R24
+Z44 !s110 1789175989
 !i10b 1
-!s100 8MUSQ]H@@W:7nXULc4je:0
-R13
-IA8l694]Vc]:zZijKCAL9b0
-R14
-R4
-Z45 w1788965246
+!s100 SImm>BA3AOQ@z1PY`f:M>2
+IC1:e4j6EIRl@VZC>CV]?=2
+R26
+w1789175986
 R16
 R17
-!i122 18
+!i122 104
 L0 32 372
-R18
+R14
+R28
 r1
 !s85 0
 31
-Z46 !s108 1788965247.000000
+Z45 !s108 1789175989.000000
 R20
 R21
-!i113 1
-R22
-R23
+!i113 0
+R30
+R31
 vaura_vlg_vec_tst
+Z46 2Waveform1.vwf.vt
 R44
 !i10b 1
-!s100 BNN@UQK5FFb73:QG5E8>B0
-R13
-IoB9=kZ:@i9zW`SK2K2Vmi1
-R14
-R4
-R45
+!s100 eZQ2D3a[a[jABTPc2D`8;2
+I@@Y?Iz7We?7kioGKKMQ9f3
+R26
+w1789175972
 Z47 8Waveform1.vwf.vt
 Z48 FWaveform1.vwf.vt
-!i122 19
+!i122 105
 L0 30 72
-R18
+R14
+R28
 r1
 !s85 0
 31
-R46
+R45
 Z49 !s107 Waveform1.vwf.vt|
 Z50 !s90 -work|work|Waveform1.vwf.vt|
-!i113 1
-R22
-R23
+!i113 0
+R30
+R31
 vComp_bigger
 R24
 Z51 !s110 1789067500
@@ -321,7 +352,7 @@ R30
 R31
 n@comp_bigger
 vComp_bigger_vlg_vec_tst
-Z53 2Waveform1.vwf.vt
+R46
 R51
 !i10b 1
 !s100 Z7`7RDmJbJQR4_M8z]94B0
@@ -346,7 +377,7 @@ R31
 n@comp_bigger_vlg_vec_tst
 vComp_equal
 R24
-Z54 !s110 1789065095
+Z53 !s110 1789065095
 !i10b 1
 !s100 6L`ikJjE5<n2=b:]D`AlZ3
 IJFz7MXBobM>>0i[L]noF60
@@ -361,7 +392,7 @@ R28
 r1
 !s85 0
 31
-Z55 !s108 1789065095.000000
+Z54 !s108 1789065095.000000
 R20
 R21
 !i113 0
@@ -370,7 +401,7 @@ R31
 n@comp_equal
 vComp_equal_vlg_vec_tst
 R32
-R54
+R53
 !i10b 1
 !s100 g]1INefNRbV]cY>Uikn121
 INT0d`^KlIG87iOi]2CoX80
@@ -385,7 +416,7 @@ R28
 r1
 !s85 0
 31
-R55
+R54
 R35
 R36
 !i113 0
@@ -394,7 +425,7 @@ R31
 n@comp_equal_vlg_vec_tst
 vComp_smaller
 R24
-Z56 !s110 1789068146
+Z55 !s110 1789068146
 !i10b 1
 !s100 LVX_6[=zIDfUjbNIHP;Nz1
 Id]4:ldYbhblTTY86MOmcA3
@@ -409,7 +440,7 @@ R28
 r1
 !s85 0
 31
-Z57 !s108 1789068146.000000
+Z56 !s108 1789068146.000000
 R20
 R21
 !i113 0
@@ -418,7 +449,7 @@ R31
 n@comp_smaller
 vComp_smaller_vlg_vec_tst
 R32
-R56
+R55
 !i10b 1
 !s100 00WgmGAAB6TB8;4o[;E4I2
 IF@g_=f0T15gkRzF>oA_Z?1
@@ -433,7 +464,7 @@ R28
 r1
 !s85 0
 31
-R57
+R56
 R35
 R36
 !i113 0
@@ -442,7 +473,7 @@ R31
 n@comp_smaller_vlg_vec_tst
 vcomplement
 R24
-Z58 !s110 1789063098
+Z57 !s110 1789063098
 !i10b 1
 !s100 21OSWmIB^8T1CGlBW@l<L1
 IOaENFEjalU3Pae?>D:C;81
@@ -464,8 +495,8 @@ R21
 R30
 R31
 vcomplement_vlg_vec_tst
-R53
-R58
+R46
+R57
 !i10b 1
 !s100 Ue5Ni1Z1BUZQU]zCKb9D82
 IQjiHRVn8=@[;R@M?`l>720
@@ -474,7 +505,7 @@ w1789063085
 R47
 R48
 !i122 65
-Z59 L0 30 66
+Z58 L0 30 66
 R14
 R28
 r1
@@ -488,7 +519,7 @@ R30
 R31
 vFiveBitToBcd
 R24
-Z60 !s110 1789076308
+Z59 !s110 1789076308
 !i10b 1
 !s100 FKe1;GlE_nD:VK^VaB9Qc3
 IV;1ODQB17jfeR16jXW=KV2
@@ -503,7 +534,7 @@ R28
 r1
 !s85 0
 31
-Z61 !s108 1789076308.000000
+Z60 !s108 1789076308.000000
 R20
 R21
 !i113 0
@@ -512,7 +543,7 @@ R31
 n@five@bit@to@bcd
 vFiveBitToBcd_vlg_vec_tst
 R39
-R60
+R59
 !i10b 1
 !s100 `OD7aoG=Y:oQ0nCmaSI]43
 II@Nz=H`RQiaVTYPXCMg=c0
@@ -521,13 +552,13 @@ w1789076295
 R40
 R41
 !i122 79
-R59
+R58
 R14
 R28
 r1
 !s85 0
 31
-R61
+R60
 R42
 R43
 !i113 0
@@ -535,85 +566,229 @@ R30
 R31
 n@five@bit@to@bcd_vlg_vec_tst
 vhard_block
-Z62 !s110 1789149334
+R24
+Z61 !s110 1789184427
 !i10b 1
-!s100 f7cZ2M;MObQdE:d>l_dc;0
-R13
-ISBboILTYWgRl_gB?:hg=;0
-R14
-Z63 dD:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
-Z64 w1789149333
+!s100 YWZ>ccD]NV1mg4T=nE:C]1
+IEZ:QU>?6XQBC5n9j=RVg61
+R26
+Z62 w1789184425
 R16
 R17
-!i122 88
-L0 229 34
-R18
+!i122 126
+L0 3377 34
+R14
+R28
 r1
 !s85 0
 31
-Z65 !s108 1789149334.000000
+Z63 !s108 1789184427.000000
 R20
 R21
-!i113 1
-R22
-R23
-vSixBitsToBcdNegative
+!i113 0
+R30
+R31
+vMain
+R24
+R61
+!i10b 1
+!s100 D]N2fODI@il;bLk5hi_`X1
+IiJRCAXj?[Y<lEJ0WdzOIn3
+R26
 R62
-!i10b 1
-!s100 OPz<K<k]6A9ECh7D6NFzR2
-R13
-IMQz4@<QLzTSUilGzZW@m70
-R14
-R63
-R64
 R16
 R17
-!i122 88
-L0 32 196
-R18
+!i122 126
+L0 32 3344
+R14
+R28
 r1
 !s85 0
 31
-R65
+R63
 R20
 R21
-!i113 1
-R22
-R23
+!i113 0
+R30
+R31
+n@main
+vMain_vlg_vec_tst
+R39
+!s110 1789184428
+!i10b 1
+!s100 :odSB^?c?^i^8_1JmjSfJ1
+IPOLF;h@gARZ:=>`:iflUY2
+R26
+w1789184410
+R40
+R41
+!i122 127
+L0 30 126
+R14
+R28
+r1
+!s85 0
+31
+!s108 1789184428.000000
+R42
+R43
+!i113 0
+R30
+R31
+n@main_vlg_vec_tst
+vSelectorToBComplement
+R24
+!s110 1789172182
+!i10b 1
+!s100 P>>8]Yk6O@PG@Q0G[boLB0
+IZM9_23Lk`@X51PF1PE:l<0
+R26
+w1789172180
+R16
+R17
+!i122 98
+L0 32 301
+R14
+R28
+r1
+!s85 0
+31
+!s108 1789172182.000000
+R20
+R21
+!i113 0
+R30
+R31
+n@selector@to@b@complement
+vSelectorToBComplement_vlg_vec_tst
+R32
+!s110 1789172183
+!i10b 1
+!s100 GVh1B=jjW4OQhF?5CDjz`1
+IfUOR87D6CcmTmK5ZdD<;k3
+R26
+w1789172166
+R33
+R34
+!i122 99
+L0 30 74
+R14
+R28
+r1
+!s85 0
+31
+!s108 1789172183.000000
+R35
+R36
+!i113 0
+R30
+R31
+n@selector@to@b@complement_vlg_vec_tst
+vSixBitsToBcdMain
+R24
+Z64 !s110 1789175127
+!i10b 1
+!s100 dmmkXz0?UCj:UaR?H]lMY2
+IWDB`o5F?F8__oZc1aYOJ]1
+R26
+w1789175124
+R16
+R17
+!i122 102
+L0 32 455
+R14
+R28
+r1
+!s85 0
+31
+!s108 1789175126.000000
+R20
+R21
+!i113 0
+R30
+R31
+n@six@bits@to@bcd@main
+vSixBitsToBcdMain_vlg_vec_tst
+R32
+R64
+!i10b 1
+!s100 e5Nd@K9;2WKmHFh@?7VPh1
+ILFajfihQ]KL;ZS2[WeinE0
+R26
+w1789175110
+R33
+R34
+!i122 103
+R58
+R14
+R28
+r1
+!s85 0
+31
+!s108 1789175127.000000
+R35
+R36
+!i113 0
+R30
+R31
+n@six@bits@to@bcd@main_vlg_vec_tst
+vSixBitsToBcdNegative
+R24
+Z65 !s110 1789170854
+!i10b 1
+!s100 7WDhTQ3<zLb0no^8`MkX^3
+I`cb>G2OI^fn_4J:FfnmcO3
+R26
+w1789170851
+R16
+R17
+!i122 96
+L0 32 433
+R14
+R28
+r1
+!s85 0
+31
+Z66 !s108 1789170854.000000
+R20
+R21
+!i113 0
+R30
+R31
 n@six@bits@to@bcd@negative
 vSixBitsToBcdNegative_vlg_vec_tst
-!s110 1789149335
+R32
+R65
 !i10b 1
-!s100 ?JIc;fh4V_NmP13j=D^Vk2
-R13
-I<;fiFOOBHaFc]G5B9S=B@3
+!s100 N<Cz;GmFbBICS`?7_Fag[0
+IQW_U`02K7d_3F31LmUj7X2
+R26
+w1789170837
+R33
+R34
+!i122 97
+R58
 R14
-R63
-R64
-8Waveform3.vwf.vt
-FWaveform3.vwf.vt
-!i122 89
-L0 30 60
-R18
+R28
 r1
 !s85 0
 31
-R65
-!s107 Waveform3.vwf.vt|
-!s90 -work|work|Waveform3.vwf.vt|
-!i113 1
-R22
-R23
+R66
+R35
+R36
+!i113 0
+R30
+R31
 n@six@bits@to@bcd@negative_vlg_vec_tst
 vSixBitsToBcdPositive
-Z66 !s110 1789149238
+Z67 !s110 1789149238
 !i10b 1
 !s100 eI?kXKaI^]ll<JWN2[4[R0
 R13
 II^FGMS896Y5^MmbS]F^H32
 R14
-R63
-Z67 w1789149237
+Z68 dD:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
+Z69 w1789149237
 R16
 R17
 !i122 86
@@ -622,7 +797,7 @@ R18
 r1
 !s85 0
 31
-Z68 !s108 1789149238.000000
+Z70 !s108 1789149238.000000
 R20
 R21
 !i113 1
@@ -630,14 +805,14 @@ R22
 R23
 n@six@bits@to@bcd@positive
 vSixBitsToBcdPositive_vlg_vec_tst
-R66
+R67
 !i10b 1
 !s100 OCh9Bj[]f87A5C;fMmi7L3
 R13
 IH1G@EHe]CRn[N7W4YHe^B0
 R14
-R63
-R67
+R68
+R69
 R40
 R41
 !i122 87
@@ -646,10 +821,56 @@ R18
 r1
 !s85 0
 31
-R68
+R70
 R42
 R43
 !i113 1
 R22
 R23
 n@six@bits@to@bcd@positive_vlg_vec_tst
+vteste
+R24
+!s110 1789182785
+!i10b 1
+!s100 Keg?0K:U5kVHf@4Ykm@h61
+InLWkziW]BGneCzkK6d0`A3
+R26
+w1789182781
+R16
+R17
+!i122 114
+L0 32 913
+R14
+R28
+r1
+!s85 0
+31
+!s108 1789182785.000000
+R20
+R21
+!i113 0
+R30
+R31
+vteste_vlg_vec_tst
+R39
+!s110 1789182786
+!i10b 1
+!s100 b5^2b=LBb;nOIZN7DmgJF1
+I9f0=PU9?jj0D>nQ^X>;0]2
+R26
+w1789182767
+R40
+R41
+!i122 115
+L0 30 22
+R14
+R28
+r1
+!s85 0
+31
+!s108 1789182786.000000
+R42
+R43
+!i113 0
+R30
+R31

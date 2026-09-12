@@ -1,8 +1,8 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="d191baf4777b87a89d00"/>
+    <hash md5_digest_80b="15e904662d061c5292f5"/>
   </project>
   <file_info>
-    <file device="EP4CE55F29C7" path="aura.sof" usercode="0xFFFFFFFF"/>
+    <file device="EP4CE115F29C7" path="aura.sof" usercode="0xFFFFFFFF"/>
   </file_info>
 </sld_project_info>
