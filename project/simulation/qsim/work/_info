@@ -105,6 +105,7 @@ Z9 o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L al
 Z10 tCvgOpt 0 defaultOptions 1107585188
 n@_opt
 Z11 OL;O;2025.2;82
+R4
 T_opt1
 !i145 1
 !i144 0
@@ -566,76 +567,114 @@ R30
 R31
 n@five@bit@to@bcd_vlg_vec_tst
 vhard_block
-R24
-Z61 !s110 1789184427
+Z61 !s110 1789580761
 !i10b 1
-!s100 YWZ>ccD]NV1mg4T=nE:C]1
-IEZ:QU>?6XQBC5n9j=RVg61
-R26
-Z62 w1789184425
+!s100 Re8>W;8D:3lNgDD3R2T]]1
+I21c8`YebJA9CzAE>0He]32
+R14
+Z62 dC:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
+Z63 w1789580761
 R16
 R17
-!i122 126
-L0 3377 34
-R14
-R28
+L0 814
+Z64 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z63 !s108 1789184427.000000
+Z65 !s108 1789580761.000000
 R20
 R21
-!i113 0
-R30
-R31
+!i113 1
+R22
+R23
 vMain
-R24
 R61
 !i10b 1
-!s100 D]N2fODI@il;bLk5hi_`X1
-IiJRCAXj?[Y<lEJ0WdzOIn3
-R26
+!s100 V25a5`ILOnb3FChJjDaDY3
+I1bg>og<lMkfL56DFK[UYH1
+R14
 R62
+R63
 R16
 R17
-!i122 126
-L0 32 3344
-R14
-R28
+Z66 L0 31
+R64
 r1
 !s85 0
 31
-R63
+R65
 R20
 R21
-!i113 0
-R30
-R31
+!i113 1
+R22
+R23
 n@main
 vMain_vlg_vec_tst
-R39
-!s110 1789184428
+R61
 !i10b 1
-!s100 :odSB^?c?^i^8_1JmjSfJ1
-IPOLF;h@gARZ:=>`:iflUY2
-R26
-w1789184410
-R40
-R41
-!i122 127
-L0 30 126
+!s100 oQzF3ofQ^S=iz1ZJN@`]>1
+IX__Ti[[F;cGRz5X[FRT9k3
 R14
-R28
+R62
+w1789580760
+R47
+R48
+Z67 L0 29
+R64
 r1
 !s85 0
 31
-!s108 1789184428.000000
-R42
-R43
-!i113 0
-R30
-R31
+R65
+R49
+R50
+!i113 1
+R22
+R23
 n@main_vlg_vec_tst
+vMUX2x1
+Z68 !s110 1789579980
+!i10b 1
+!s100 0i7U9;YM=AF^nGZEj;Vbg0
+I=5AHiL0KJYj;HT71Q?I`51
+R14
+R62
+Z69 w1789579976
+R16
+R17
+R66
+R64
+r1
+!s85 0
+31
+Z70 !s108 1789579980.000000
+R20
+R21
+!i113 1
+R22
+R23
+n@m@u@x2x1
+vMUX2x1_vlg_vec_tst
+R68
+!i10b 1
+!s100 jaJ6_]^5S09h16Q8:ZF:=3
+InDmQXY5<cZ]leR1nI<ZeK2
+R14
+R62
+R69
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+R67
+R64
+r1
+!s85 0
+31
+R70
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R22
+R23
+n@m@u@x2x1_vlg_vec_tst
 vSelectorToBComplement
 R24
 !s110 1789172182
@@ -686,7 +725,7 @@ R31
 n@selector@to@b@complement_vlg_vec_tst
 vSixBitsToBcdMain
 R24
-Z64 !s110 1789175127
+Z71 !s110 1789175127
 !i10b 1
 !s100 dmmkXz0?UCj:UaR?H]lMY2
 IWDB`o5F?F8__oZc1aYOJ]1
@@ -710,7 +749,7 @@ R31
 n@six@bits@to@bcd@main
 vSixBitsToBcdMain_vlg_vec_tst
 R32
-R64
+R71
 !i10b 1
 !s100 e5Nd@K9;2WKmHFh@?7VPh1
 ILFajfihQ]KL;ZS2[WeinE0
@@ -734,7 +773,7 @@ R31
 n@six@bits@to@bcd@main_vlg_vec_tst
 vSixBitsToBcdNegative
 R24
-Z65 !s110 1789170854
+Z72 !s110 1789170854
 !i10b 1
 !s100 7WDhTQ3<zLb0no^8`MkX^3
 I`cb>G2OI^fn_4J:FfnmcO3
@@ -749,7 +788,7 @@ R28
 r1
 !s85 0
 31
-Z66 !s108 1789170854.000000
+Z73 !s108 1789170854.000000
 R20
 R21
 !i113 0
@@ -758,7 +797,7 @@ R31
 n@six@bits@to@bcd@negative
 vSixBitsToBcdNegative_vlg_vec_tst
 R32
-R65
+R72
 !i10b 1
 !s100 N<Cz;GmFbBICS`?7_Fag[0
 IQW_U`02K7d_3F31LmUj7X2
@@ -773,7 +812,7 @@ R28
 r1
 !s85 0
 31
-R66
+R73
 R35
 R36
 !i113 0
@@ -781,14 +820,14 @@ R30
 R31
 n@six@bits@to@bcd@negative_vlg_vec_tst
 vSixBitsToBcdPositive
-Z67 !s110 1789149238
+Z74 !s110 1789149238
 !i10b 1
 !s100 eI?kXKaI^]ll<JWN2[4[R0
 R13
 II^FGMS896Y5^MmbS]F^H32
 R14
-Z68 dD:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
-Z69 w1789149237
+Z75 dD:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
+Z76 w1789149237
 R16
 R17
 !i122 86
@@ -797,7 +836,7 @@ R18
 r1
 !s85 0
 31
-Z70 !s108 1789149238.000000
+Z77 !s108 1789149238.000000
 R20
 R21
 !i113 1
@@ -805,14 +844,14 @@ R22
 R23
 n@six@bits@to@bcd@positive
 vSixBitsToBcdPositive_vlg_vec_tst
-R67
+R74
 !i10b 1
 !s100 OCh9Bj[]f87A5C;fMmi7L3
 R13
 IH1G@EHe]CRn[N7W4YHe^B0
 R14
-R68
-R69
+R75
+R76
 R40
 R41
 !i122 87
@@ -821,7 +860,7 @@ R18
 r1
 !s85 0
 31
-R70
+R77
 R42
 R43
 !i113 1
