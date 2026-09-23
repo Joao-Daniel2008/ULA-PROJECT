@@ -245,15 +245,15 @@ w1789064028
 Z40 8Waveform2.vwf.vt
 Z41 FWaveform2.vwf.vt
 !i122 69
-L0 30 107
+Z42 L0 30 107
 R14
 R28
 r1
 !s85 0
 31
 R38
-Z42 !s107 Waveform2.vwf.vt|
-Z43 !s90 -work|work|Waveform2.vwf.vt|
+Z43 !s107 Waveform2.vwf.vt|
+Z44 !s90 -work|work|Waveform2.vwf.vt|
 !i113 0
 R30
 R31
@@ -284,7 +284,7 @@ R23
 n@adder_vlg_vec_tst
 vaura
 R24
-Z44 !s110 1789175989
+Z45 !s110 1789175989
 !i10b 1
 !s100 SImm>BA3AOQ@z1PY`f:M>2
 IC1:e4j6EIRl@VZC>CV]?=2
@@ -299,22 +299,22 @@ R28
 r1
 !s85 0
 31
-Z45 !s108 1789175989.000000
+Z46 !s108 1789175989.000000
 R20
 R21
 !i113 0
 R30
 R31
 vaura_vlg_vec_tst
-Z46 2Waveform1.vwf.vt
-R44
+Z47 2Waveform1.vwf.vt
+R45
 !i10b 1
 !s100 eZQ2D3a[a[jABTPc2D`8;2
 I@@Y?Iz7We?7kioGKKMQ9f3
 R26
 w1789175972
-Z47 8Waveform1.vwf.vt
-Z48 FWaveform1.vwf.vt
+Z48 8Waveform1.vwf.vt
+Z49 FWaveform1.vwf.vt
 !i122 105
 L0 30 72
 R14
@@ -322,15 +322,15 @@ R28
 r1
 !s85 0
 31
-R45
-Z49 !s107 Waveform1.vwf.vt|
-Z50 !s90 -work|work|Waveform1.vwf.vt|
+R46
+Z50 !s107 Waveform1.vwf.vt|
+Z51 !s90 -work|work|Waveform1.vwf.vt|
 !i113 0
 R30
 R31
 vComp_bigger
 R24
-Z51 !s110 1789067500
+Z52 !s110 1789067500
 !i10b 1
 !s100 0V_l0BalKO<G[@Tgn92ag3
 I>jGfa8P0P0750;A6LoWhV0
@@ -339,7 +339,7 @@ w1789067497
 R16
 R17
 !i122 72
-Z52 L0 32 239
+Z53 L0 32 239
 R14
 R28
 r1
@@ -353,15 +353,15 @@ R30
 R31
 n@comp_bigger
 vComp_bigger_vlg_vec_tst
-R46
-R51
+R47
+R52
 !i10b 1
 !s100 Z7`7RDmJbJQR4_M8z]94B0
 IMG4@FXEY6g1Ei1g_Nb25W3
 R26
 w1789067487
-R47
 R48
+R49
 !i122 73
 L0 30 99
 R14
@@ -370,15 +370,15 @@ r1
 !s85 0
 31
 !s108 1789067500.000000
-R49
 R50
+R51
 !i113 0
 R30
 R31
 n@comp_bigger_vlg_vec_tst
 vComp_equal
 R24
-Z53 !s110 1789065095
+Z54 !s110 1789065095
 !i10b 1
 !s100 6L`ikJjE5<n2=b:]D`AlZ3
 IJFz7MXBobM>>0i[L]noF60
@@ -393,7 +393,7 @@ R28
 r1
 !s85 0
 31
-Z54 !s108 1789065095.000000
+Z55 !s108 1789065095.000000
 R20
 R21
 !i113 0
@@ -402,7 +402,7 @@ R31
 n@comp_equal
 vComp_equal_vlg_vec_tst
 R32
-R53
+R54
 !i10b 1
 !s100 g]1INefNRbV]cY>Uikn121
 INT0d`^KlIG87iOi]2CoX80
@@ -417,7 +417,7 @@ R28
 r1
 !s85 0
 31
-R54
+R55
 R35
 R36
 !i113 0
@@ -426,7 +426,7 @@ R31
 n@comp_equal_vlg_vec_tst
 vComp_smaller
 R24
-Z55 !s110 1789068146
+Z56 !s110 1789068146
 !i10b 1
 !s100 LVX_6[=zIDfUjbNIHP;Nz1
 Id]4:ldYbhblTTY86MOmcA3
@@ -435,13 +435,13 @@ w1789068143
 R16
 R17
 !i122 74
-R52
+R53
 R14
 R28
 r1
 !s85 0
 31
-Z56 !s108 1789068146.000000
+Z57 !s108 1789068146.000000
 R20
 R21
 !i113 0
@@ -450,7 +450,7 @@ R31
 n@comp_smaller
 vComp_smaller_vlg_vec_tst
 R32
-R55
+R56
 !i10b 1
 !s100 00WgmGAAB6TB8;4o[;E4I2
 IF@g_=f0T15gkRzF>oA_Z?1
@@ -465,7 +465,7 @@ R28
 r1
 !s85 0
 31
-R56
+R57
 R35
 R36
 !i113 0
@@ -474,7 +474,7 @@ R31
 n@comp_smaller_vlg_vec_tst
 vcomplement
 R24
-Z57 !s110 1789063098
+Z58 !s110 1789063098
 !i10b 1
 !s100 21OSWmIB^8T1CGlBW@l<L1
 IOaENFEjalU3Pae?>D:C;81
@@ -496,31 +496,77 @@ R21
 R30
 R31
 vcomplement_vlg_vec_tst
-R46
-R57
+R47
+R58
 !i10b 1
 !s100 Ue5Ni1Z1BUZQU]zCKb9D82
 IQjiHRVn8=@[;R@M?`l>720
 R26
 w1789063085
-R47
 R48
+R49
 !i122 65
-Z58 L0 30 66
+Z59 L0 30 66
 R14
 R28
 r1
 !s85 0
 31
 !s108 1789063098.000000
-R49
 R50
+R51
 !i113 0
 R30
 R31
+vdecoder
+Z60 !s110 1790168788
+!i10b 1
+!s100 @Bf?Kh4zI<dNDAVZ]^SkT2
+R13
+I[G_Pl[GYa9T2EkKTo8Og>1
+R14
+Z61 dD:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
+Z62 w1790168786
+R16
+R17
+!i122 116
+L0 32 986
+R18
+r1
+!s85 0
+31
+Z63 !s108 1790168788.000000
+R20
+R21
+!i113 1
+R22
+R23
+vdecoder_vlg_vec_tst
+R60
+!i10b 1
+!s100 4SjXWnY2Vk?_fhgz=c2N52
+R13
+IXB[<05Lf<aaJ67Cdn5ed[2
+R14
+R61
+R62
+R40
+R41
+!i122 117
+L0 30 62
+R18
+r1
+!s85 0
+31
+R63
+R43
+R44
+!i113 1
+R22
+R23
 vFiveBitToBcd
 R24
-Z59 !s110 1789076308
+Z64 !s110 1789076308
 !i10b 1
 !s100 FKe1;GlE_nD:VK^VaB9Qc3
 IV;1ODQB17jfeR16jXW=KV2
@@ -535,7 +581,7 @@ R28
 r1
 !s85 0
 31
-Z60 !s108 1789076308.000000
+Z65 !s108 1789076308.000000
 R20
 R21
 !i113 0
@@ -544,7 +590,7 @@ R31
 n@five@bit@to@bcd
 vFiveBitToBcd_vlg_vec_tst
 R39
-R59
+R64
 !i10b 1
 !s100 `OD7aoG=Y:oQ0nCmaSI]43
 II@Nz=H`RQiaVTYPXCMg=c0
@@ -553,56 +599,60 @@ w1789076295
 R40
 R41
 !i122 79
-R58
+R59
 R14
 R28
 r1
 !s85 0
 31
-R60
-R42
+R65
 R43
+R44
 !i113 0
 R30
 R31
 n@five@bit@to@bcd_vlg_vec_tst
 vhard_block
-Z61 !s110 1789580761
+Z66 !s110 1790174878
 !i10b 1
-!s100 Re8>W;8D:3lNgDD3R2T]]1
-I21c8`YebJA9CzAE>0He]32
+!s100 Ijcf1f]GAlieCeEQhm_kj1
+R13
+I=ObJ?DMnGeU>LncVd5b:`3
 R14
-Z62 dC:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
-Z63 w1789580761
+R61
+Z67 w1790174877
 R16
 R17
-L0 814
-Z64 OV;L;10.5b;63
+!i122 136
+L0 3059 34
+R18
 r1
 !s85 0
 31
-Z65 !s108 1789580761.000000
+Z68 !s108 1790174878.000000
 R20
 R21
 !i113 1
 R22
 R23
 vMain
-R61
+Z69 !s110 1790172026
 !i10b 1
-!s100 V25a5`ILOnb3FChJjDaDY3
-I1bg>og<lMkfL56DFK[UYH1
+!s100 CjRXi:^kN5@@3O6DIUDBf2
+R13
+I@@<bLP1chMbAeaJ4zH3=[1
 R14
-R62
-R63
+R61
+w1790172025
 R16
 R17
-Z66 L0 31
-R64
+!i122 128
+L0 32 1016
+R18
 r1
 !s85 0
 31
-R65
+Z70 !s108 1790172026.000000
 R20
 R21
 !i113 1
@@ -610,43 +660,45 @@ R22
 R23
 n@main
 vMain_vlg_vec_tst
-R61
+R69
 !i10b 1
-!s100 oQzF3ofQ^S=iz1ZJN@`]>1
-IX__Ti[[F;cGRz5X[FRT9k3
+!s100 ?RifUCljheVMaj07H<CJL1
+R13
+IneiZC=]3gL4fYTBga^<5l0
 R14
-R62
-w1789580760
-R47
-R48
-Z67 L0 29
-R64
+R61
+w1790172024
+R33
+R34
+!i122 129
+L0 30 95
+R18
 r1
 !s85 0
 31
-R65
-R49
-R50
+R70
+R35
+R36
 !i113 1
 R22
 R23
 n@main_vlg_vec_tst
 vMUX2x1
-Z68 !s110 1789579980
+Z71 !s110 1789579980
 !i10b 1
 !s100 0i7U9;YM=AF^nGZEj;Vbg0
 I=5AHiL0KJYj;HT71Q?I`51
 R14
-R62
-Z69 w1789579976
+Z72 dC:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
+Z73 w1789579976
 R16
 R17
-R66
-R64
+L0 31
+Z74 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z70 !s108 1789579980.000000
+Z75 !s108 1789579980.000000
 R20
 R21
 !i113 1
@@ -654,21 +706,21 @@ R22
 R23
 n@m@u@x2x1
 vMUX2x1_vlg_vec_tst
-R68
+R71
 !i10b 1
 !s100 jaJ6_]^5S09h16Q8:ZF:=3
 InDmQXY5<cZ]leR1nI<ZeK2
 R14
-R62
-R69
+R72
+R73
 8Waveform4.vwf.vt
 FWaveform4.vwf.vt
-R67
-R64
+L0 29
+R74
 r1
 !s85 0
 31
-R70
+R75
 !s107 Waveform4.vwf.vt|
 !s90 -work|work|Waveform4.vwf.vt|
 !i113 1
@@ -725,7 +777,7 @@ R31
 n@selector@to@b@complement_vlg_vec_tst
 vSixBitsToBcdMain
 R24
-Z71 !s110 1789175127
+Z76 !s110 1789175127
 !i10b 1
 !s100 dmmkXz0?UCj:UaR?H]lMY2
 IWDB`o5F?F8__oZc1aYOJ]1
@@ -749,7 +801,7 @@ R31
 n@six@bits@to@bcd@main
 vSixBitsToBcdMain_vlg_vec_tst
 R32
-R71
+R76
 !i10b 1
 !s100 e5Nd@K9;2WKmHFh@?7VPh1
 ILFajfihQ]KL;ZS2[WeinE0
@@ -758,7 +810,7 @@ w1789175110
 R33
 R34
 !i122 103
-R58
+R59
 R14
 R28
 r1
@@ -773,7 +825,7 @@ R31
 n@six@bits@to@bcd@main_vlg_vec_tst
 vSixBitsToBcdNegative
 R24
-Z72 !s110 1789170854
+Z77 !s110 1789170854
 !i10b 1
 !s100 7WDhTQ3<zLb0no^8`MkX^3
 I`cb>G2OI^fn_4J:FfnmcO3
@@ -788,7 +840,7 @@ R28
 r1
 !s85 0
 31
-Z73 !s108 1789170854.000000
+Z78 !s108 1789170854.000000
 R20
 R21
 !i113 0
@@ -797,7 +849,7 @@ R31
 n@six@bits@to@bcd@negative
 vSixBitsToBcdNegative_vlg_vec_tst
 R32
-R72
+R77
 !i10b 1
 !s100 N<Cz;GmFbBICS`?7_Fag[0
 IQW_U`02K7d_3F31LmUj7X2
@@ -806,13 +858,13 @@ w1789170837
 R33
 R34
 !i122 97
-R58
+R59
 R14
 R28
 r1
 !s85 0
 31
-R73
+R78
 R35
 R36
 !i113 0
@@ -820,14 +872,14 @@ R30
 R31
 n@six@bits@to@bcd@negative_vlg_vec_tst
 vSixBitsToBcdPositive
-Z74 !s110 1789149238
+Z79 !s110 1789149238
 !i10b 1
 !s100 eI?kXKaI^]ll<JWN2[4[R0
 R13
 II^FGMS896Y5^MmbS]F^H32
 R14
-Z75 dD:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/simulation/qsim
-Z76 w1789149237
+R61
+Z80 w1789149237
 R16
 R17
 !i122 86
@@ -836,7 +888,7 @@ R18
 r1
 !s85 0
 31
-Z77 !s108 1789149238.000000
+Z81 !s108 1789149238.000000
 R20
 R21
 !i113 1
@@ -844,14 +896,14 @@ R22
 R23
 n@six@bits@to@bcd@positive
 vSixBitsToBcdPositive_vlg_vec_tst
-R74
+R79
 !i10b 1
 !s100 OCh9Bj[]f87A5C;fMmi7L3
 R13
 IH1G@EHe]CRn[N7W4YHe^B0
 R14
-R75
-R76
+R61
+R80
 R40
 R41
 !i122 87
@@ -860,9 +912,9 @@ R18
 r1
 !s85 0
 31
-R77
-R42
+R81
 R43
+R44
 !i113 1
 R22
 R23
@@ -908,8 +960,56 @@ r1
 !s85 0
 31
 !s108 1789182786.000000
-R42
 R43
+R44
 !i113 0
 R30
 R31
+vTHEPROJECT
+R66
+!i10b 1
+!s100 h]E5Vi]HkbVTJf2=_Ej912
+R13
+IYlB=ilM1W=_=Z6<2hQPfZ0
+R14
+R61
+R67
+R16
+R17
+!i122 136
+L0 32 3026
+R18
+r1
+!s85 0
+31
+R68
+R20
+R21
+!i113 1
+R22
+R23
+n@t@h@e@p@r@o@j@e@c@t
+vTHEPROJECT_vlg_vec_tst
+!s110 1790174879
+!i10b 1
+!s100 Do2Z;SRWOSeX?EbbijZbF2
+R13
+ImTjE39EFFD>j93Z1P:c^o3
+R14
+R61
+R67
+R33
+R34
+!i122 137
+R42
+R18
+r1
+!s85 0
+31
+R68
+R35
+R36
+!i113 1
+R22
+R23
+n@t@h@e@p@r@o@j@e@c@t_vlg_vec_tst

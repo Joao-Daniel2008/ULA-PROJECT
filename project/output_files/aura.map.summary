@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Wed Sep 16 15:34:10 2026
-Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Wed Sep 23 12:12:35 2026
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 Revision Name : aura
-Top-level Entity Name : decoder
+Top-level Entity Name : THEPROJECT
 Family : Cyclone IV E
-Total logic elements : 34
-    Total combinational functions : 34
+Total logic elements : 104
+    Total combinational functions : 104
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 22
+Total pins : 68
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0
