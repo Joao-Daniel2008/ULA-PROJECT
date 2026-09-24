@@ -1,6 +1,6 @@
-// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Copyright (C) 2022  Intel Corporation. All rights reserved.
 // Your use of Intel Corporation's design tools, logic functions 
-// and other software and tools, and its AMPP partner logic 
+// and other software and tools, and any partner logic 
 // functions, and any output files from any of the foregoing 
 // (including device programming or simulation files), and any 
 // associated documentation or information are expressly subject 
@@ -10,7 +10,8 @@
 // agreement, including, without limitation, that your use is for
 // the sole purpose of programming logic devices manufactured by
 // Intel and sold by Intel or its authorized distributors.  Please
-// refer to the applicable agreement for further details.
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
 
 // *****************************************************************************
 // This file contains a Verilog test bench with test vectors .The test vectors  
@@ -18,32 +19,44 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "09/16/2026 14:46:00"
+// Generated on "09/24/2026 07:57:17"
                                                                                 
-// Verilog Test Bench (with test vectors) for design :                          Main
+// Verilog Test Bench (with test vectors) for design :                          THEPROJECT
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module Main_vlg_vec_tst();
+module THEPROJECT_vlg_vec_tst();
 // constants                                           
 // general purpose registers
 reg [4:0] A;
 reg [4:0] B;
-reg [2:0] S;
+reg [2:0] M;
 // wires                                               
 wire LOGIC;
-wire [5:0] N;
+wire [5:0] S;
+wire [7:0] U;
+wire [7:0] V;
+wire [7:0] W;
+wire [7:0] X;
+wire [7:0] Y;
+wire [7:0] Z;
 
 // assign statements (if any)                          
-Main i1 (
+THEPROJECT i1 (
 // port map - connection between master ports and signals/registers   
 	.A(A),
 	.B(B),
 	.\LOGIC (LOGIC),
-	.N(N),
-	.S(S)
+	.M(M),
+	.S(S),
+	.U(U),
+	.V(V),
+	.W(W),
+	.X(X),
+	.Y(Y),
+	.Z(Z)
 );
 initial 
 begin 
@@ -52,72 +65,71 @@ end
 // A[ 4 ]
 initial
 begin
-	A[4] = 1'b1;
+	A[4] = 1'b0;
 end 
 // A[ 3 ]
 initial
 begin
-	A[3] = 1'b1;
+	A[3] = 1'b0;
 end 
 // A[ 2 ]
 initial
 begin
-	A[2] = 1'b1;
+	A[2] = 1'b0;
 end 
 // A[ 1 ]
 initial
 begin
-	A[1] = 1'b1;
+	A[1] = 1'b0;
 end 
 // A[ 0 ]
 initial
 begin
-	A[0] = 1'b1;
+	A[0] = 1'b0;
 end 
 // B[ 4 ]
 initial
 begin
-	B[4] = 1'b1;
+	B[4] = 1'b0;
 end 
 // B[ 3 ]
 initial
 begin
-	B[3] = 1'b1;
+	B[3] = 1'b0;
 end 
 // B[ 2 ]
 initial
 begin
-	B[2] = 1'b1;
+	B[2] = 1'b0;
 end 
 // B[ 1 ]
 initial
 begin
-	B[1] = 1'b1;
+	B[1] = 1'b0;
 end 
 // B[ 0 ]
 initial
 begin
 	B[0] = 1'b0;
 end 
-// S[ 2 ]
+// M[ 2 ]
 initial
 begin
-	S[2] = 1'b0;
-	S[2] = #333300 1'b1;
+	M[2] = 1'b1;
 end 
-// S[ 1 ]
-initial
+// M[ 1 ]
+always
 begin
-	S[1] = 1'b1;
-	S[1] = #333300 1'b0;
+	M[1] = 1'b0;
+	M[1] = #500000 1'b1;
+	#500000;
 end 
-// S[ 0 ]
-initial
+// M[ 0 ]
+always
 begin
-	S[0] = 1'b1;
-	S[0] = #333300 1'b0;
-	S[0] = #333300 1'b1;
-	S[0] = #333300 1'b0;
+	M[0] = 1'b0;
+	M[0] = #250000 1'b1;
+	#250000;
 end 
 endmodule
 

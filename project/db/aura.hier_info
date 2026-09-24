@@ -23,62 +23,67 @@ B[4] => Main:inst.B[4]
 B[4] => decoder:inst3.A[5]
 B[4] => decoder:inst3.A[4]
 M[0] => Main:inst.S[0]
+M[0] => inst9.IN0
 M[1] => Main:inst.S[1]
+M[1] => inst9.IN1
+M[1] => inst18.IN1
 M[2] => Main:inst.S[2]
+M[2] => inst11.IN0
+M[2] => inst18.IN0
 S[0] <= Main:inst.N[0]
 S[1] <= Main:inst.N[1]
 S[2] <= Main:inst.N[2]
 S[3] <= Main:inst.N[3]
 S[4] <= Main:inst.N[4]
 S[5] <= Main:inst.N[5]
-U[0] <= decoder:inst4.C[0]
-U[1] <= decoder:inst4.C[1]
-U[2] <= decoder:inst4.C[2]
-U[3] <= decoder:inst4.C[3]
-U[4] <= decoder:inst4.C[4]
-U[5] <= decoder:inst4.C[5]
-U[6] <= decoder:inst4.C[6]
-U[7] <= decoder:inst4.C[7]
-V[0] <= decoder:inst4.D[0]
-V[1] <= decoder:inst4.D[1]
-V[2] <= decoder:inst4.D[2]
-V[3] <= decoder:inst4.D[3]
-V[4] <= decoder:inst4.D[4]
-V[5] <= decoder:inst4.D[5]
-V[6] <= decoder:inst4.D[6]
-V[7] <= decoder:inst4.D[7]
-W[0] <= decoder:inst3.D[0]
-W[1] <= decoder:inst3.D[1]
-W[2] <= decoder:inst3.D[2]
-W[3] <= decoder:inst3.D[3]
-W[4] <= decoder:inst3.D[4]
-W[5] <= decoder:inst3.D[5]
-W[6] <= decoder:inst3.D[6]
-W[7] <= decoder:inst3.D[7]
-X[0] <= decoder:inst2.D[0]
-X[1] <= decoder:inst2.D[1]
-X[2] <= decoder:inst2.D[2]
-X[3] <= decoder:inst2.D[3]
-X[4] <= decoder:inst2.D[4]
-X[5] <= decoder:inst2.D[5]
-X[6] <= decoder:inst2.D[6]
-X[7] <= decoder:inst2.D[7]
-Y[0] <= decoder:inst2.C[0]
-Y[1] <= decoder:inst2.C[1]
-Y[2] <= decoder:inst2.C[2]
-Y[3] <= decoder:inst2.C[3]
-Y[4] <= decoder:inst2.C[4]
-Y[5] <= decoder:inst2.C[5]
-Y[6] <= decoder:inst2.C[6]
-Y[7] <= decoder:inst2.C[7]
-Z[0] <= decoder:inst3.C[0]
-Z[1] <= decoder:inst3.C[1]
-Z[2] <= decoder:inst3.C[2]
-Z[3] <= decoder:inst3.C[3]
-Z[4] <= decoder:inst3.C[4]
-Z[5] <= decoder:inst3.C[5]
-Z[6] <= decoder:inst3.C[6]
-Z[7] <= decoder:inst3.C[7]
+U[0] <= isdisplay:inst8.S[0]
+U[1] <= isdisplay:inst8.S[1]
+U[2] <= isdisplay:inst8.S[2]
+U[3] <= isdisplay:inst8.S[3]
+U[4] <= isdisplay:inst8.S[4]
+U[5] <= isdisplay:inst8.S[5]
+U[6] <= isdisplay:inst8.S[6]
+U[7] <= isdisplay:inst8.S[7]
+V[0] <= isdisplay:inst17.S[0]
+V[1] <= isdisplay:inst17.S[1]
+V[2] <= isdisplay:inst17.S[2]
+V[3] <= isdisplay:inst17.S[3]
+V[4] <= isdisplay:inst17.S[4]
+V[5] <= isdisplay:inst17.S[5]
+V[6] <= isdisplay:inst17.S[6]
+V[7] <= isdisplay:inst17.S[7]
+W[0] <= isdisplay:inst15.S[0]
+W[1] <= isdisplay:inst15.S[1]
+W[2] <= isdisplay:inst15.S[2]
+W[3] <= isdisplay:inst15.S[3]
+W[4] <= isdisplay:inst15.S[4]
+W[5] <= isdisplay:inst15.S[5]
+W[6] <= isdisplay:inst15.S[6]
+W[7] <= isdisplay:inst15.S[7]
+X[0] <= isdisplay:inst13.S[0]
+X[1] <= isdisplay:inst13.S[1]
+X[2] <= isdisplay:inst13.S[2]
+X[3] <= isdisplay:inst13.S[3]
+X[4] <= isdisplay:inst13.S[4]
+X[5] <= isdisplay:inst13.S[5]
+X[6] <= isdisplay:inst13.S[6]
+X[7] <= isdisplay:inst13.S[7]
+Y[0] <= isdisplay:inst14.S[0]
+Y[1] <= isdisplay:inst14.S[1]
+Y[2] <= isdisplay:inst14.S[2]
+Y[3] <= isdisplay:inst14.S[3]
+Y[4] <= isdisplay:inst14.S[4]
+Y[5] <= isdisplay:inst14.S[5]
+Y[6] <= isdisplay:inst14.S[6]
+Y[7] <= isdisplay:inst14.S[7]
+Z[0] <= isdisplay:inst16.S[0]
+Z[1] <= isdisplay:inst16.S[1]
+Z[2] <= isdisplay:inst16.S[2]
+Z[3] <= isdisplay:inst16.S[3]
+Z[4] <= isdisplay:inst16.S[4]
+Z[5] <= isdisplay:inst16.S[5]
+Z[6] <= isdisplay:inst16.S[6]
+Z[7] <= isdisplay:inst16.S[7]
 
 
 |THEPROJECT|Main:inst
@@ -433,6 +438,26 @@ A[3] => inst2.IN0
 A[4] => inst1.IN0
 
 
+|THEPROJECT|isdisplay:inst8
+S[0] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+E => inst7.IN0
+A[0] => inst12.IN1
+A[1] => inst11.IN1
+A[2] => inst10.IN1
+A[3] => inst9.IN1
+A[4] => inst8.IN1
+A[5] => inst6.IN1
+A[6] => inst5.IN1
+A[7] => inst50.IN1
+
+
 |THEPROJECT|decoder:inst4
 C[0] <= aura:inst1.B[0]
 C[1] <= aura:inst1.B[1]
@@ -467,7 +492,7 @@ B[3] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
 B[4] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
 B[5] <= inst21.DB_MAX_OUTPUT_PORT_TYPE
 B[6] <= inst18.DB_MAX_OUTPUT_PORT_TYPE
-B[7] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+B[7] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => inst15.IN2
 A[0] => inst3.IN0
 A[0] => inst19.IN0
@@ -498,7 +523,7 @@ A[3] => inst.IN0
 A[3] => inst13.IN1
 A[3] => inst30.IN1
 A[3] => inst34.IN1
-A[4] => B[7].DATAIN
+A[4] => inst4.IN0
 
 
 |THEPROJECT|decoder:inst4|SixBitsToBcdMain:inst2
@@ -689,7 +714,7 @@ B[3] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
 B[4] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
 B[5] <= inst21.DB_MAX_OUTPUT_PORT_TYPE
 B[6] <= inst18.DB_MAX_OUTPUT_PORT_TYPE
-B[7] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+B[7] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => inst15.IN2
 A[0] => inst3.IN0
 A[0] => inst19.IN0
@@ -720,7 +745,47 @@ A[3] => inst.IN0
 A[3] => inst13.IN1
 A[3] => inst30.IN1
 A[3] => inst34.IN1
-A[4] => B[7].DATAIN
+A[4] => inst4.IN0
+
+
+|THEPROJECT|isdisplay:inst17
+S[0] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+E => inst7.IN0
+A[0] => inst12.IN1
+A[1] => inst11.IN1
+A[2] => inst10.IN1
+A[3] => inst9.IN1
+A[4] => inst8.IN1
+A[5] => inst6.IN1
+A[6] => inst5.IN1
+A[7] => inst50.IN1
+
+
+|THEPROJECT|isdisplay:inst15
+S[0] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+E => inst7.IN0
+A[0] => inst12.IN1
+A[1] => inst11.IN1
+A[2] => inst10.IN1
+A[3] => inst9.IN1
+A[4] => inst8.IN1
+A[5] => inst6.IN1
+A[6] => inst5.IN1
+A[7] => inst50.IN1
 
 
 |THEPROJECT|decoder:inst3
@@ -757,7 +822,7 @@ B[3] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
 B[4] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
 B[5] <= inst21.DB_MAX_OUTPUT_PORT_TYPE
 B[6] <= inst18.DB_MAX_OUTPUT_PORT_TYPE
-B[7] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+B[7] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => inst15.IN2
 A[0] => inst3.IN0
 A[0] => inst19.IN0
@@ -788,7 +853,7 @@ A[3] => inst.IN0
 A[3] => inst13.IN1
 A[3] => inst30.IN1
 A[3] => inst34.IN1
-A[4] => B[7].DATAIN
+A[4] => inst4.IN0
 
 
 |THEPROJECT|decoder:inst3|SixBitsToBcdMain:inst2
@@ -979,7 +1044,7 @@ B[3] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
 B[4] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
 B[5] <= inst21.DB_MAX_OUTPUT_PORT_TYPE
 B[6] <= inst18.DB_MAX_OUTPUT_PORT_TYPE
-B[7] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+B[7] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => inst15.IN2
 A[0] => inst3.IN0
 A[0] => inst19.IN0
@@ -1010,7 +1075,27 @@ A[3] => inst.IN0
 A[3] => inst13.IN1
 A[3] => inst30.IN1
 A[3] => inst34.IN1
-A[4] => B[7].DATAIN
+A[4] => inst4.IN0
+
+
+|THEPROJECT|isdisplay:inst13
+S[0] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+E => inst7.IN0
+A[0] => inst12.IN1
+A[1] => inst11.IN1
+A[2] => inst10.IN1
+A[3] => inst9.IN1
+A[4] => inst8.IN1
+A[5] => inst6.IN1
+A[6] => inst5.IN1
+A[7] => inst50.IN1
 
 
 |THEPROJECT|decoder:inst2
@@ -1047,7 +1132,7 @@ B[3] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
 B[4] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
 B[5] <= inst21.DB_MAX_OUTPUT_PORT_TYPE
 B[6] <= inst18.DB_MAX_OUTPUT_PORT_TYPE
-B[7] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+B[7] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => inst15.IN2
 A[0] => inst3.IN0
 A[0] => inst19.IN0
@@ -1078,7 +1163,7 @@ A[3] => inst.IN0
 A[3] => inst13.IN1
 A[3] => inst30.IN1
 A[3] => inst34.IN1
-A[4] => B[7].DATAIN
+A[4] => inst4.IN0
 
 
 |THEPROJECT|decoder:inst2|SixBitsToBcdMain:inst2
@@ -1269,7 +1354,7 @@ B[3] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
 B[4] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
 B[5] <= inst21.DB_MAX_OUTPUT_PORT_TYPE
 B[6] <= inst18.DB_MAX_OUTPUT_PORT_TYPE
-B[7] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+B[7] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => inst15.IN2
 A[0] => inst3.IN0
 A[0] => inst19.IN0
@@ -1300,6 +1385,46 @@ A[3] => inst.IN0
 A[3] => inst13.IN1
 A[3] => inst30.IN1
 A[3] => inst34.IN1
-A[4] => B[7].DATAIN
+A[4] => inst4.IN0
+
+
+|THEPROJECT|isdisplay:inst14
+S[0] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+E => inst7.IN0
+A[0] => inst12.IN1
+A[1] => inst11.IN1
+A[2] => inst10.IN1
+A[3] => inst9.IN1
+A[4] => inst8.IN1
+A[5] => inst6.IN1
+A[6] => inst5.IN1
+A[7] => inst50.IN1
+
+
+|THEPROJECT|isdisplay:inst16
+S[0] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+E => inst7.IN0
+A[0] => inst12.IN1
+A[1] => inst11.IN1
+A[2] => inst10.IN1
+A[3] => inst9.IN1
+A[4] => inst8.IN1
+A[5] => inst6.IN1
+A[6] => inst5.IN1
+A[7] => inst50.IN1
 
 
