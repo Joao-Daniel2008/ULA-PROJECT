@@ -1,5 +1,5 @@
 Analysis & Synthesis report for aura
-Thu Sep 24 08:19:45 2026
+Tue Sep 29 16:49:07 2026
 Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 
 
@@ -44,7 +44,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 24 08:19:45 2026       ;
+; Analysis & Synthesis Status        ; Successful - Tue Sep 29 16:49:07 2026       ;
 ; Quartus Prime Version              ; 21.1.1 Build 850 06/23/2022 SJ Lite Edition ;
 ; Revision Name                      ; aura                                        ;
 ; Top-level Entity Name              ; THEPROJECT                                  ;
@@ -168,22 +168,24 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                  ; Library ;
 +----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+---------+
-; aura.bdf                         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/aura.bdf                   ;         ;
-; Adder.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/Adder.bdf                  ;         ;
-; adder5bits.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/adder5bits.bdf             ;         ;
-; complement.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/complement.bdf             ;         ;
-; Adder_Subtrator.bdf              ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/Adder_Subtrator.bdf        ;         ;
-; Comp_equal.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/Comp_equal.bdf             ;         ;
-; Comp_bigger.bdf                  ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/Comp_bigger.bdf            ;         ;
-; Comp_smaller.bdf                 ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/Comp_smaller.bdf           ;         ;
-; SixBitsToBcdPositive.bdf         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/SixBitsToBcdPositive.bdf   ;         ;
-; SixBitsToBcdNegative.bdf         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/SixBitsToBcdNegative.bdf   ;         ;
-; Main.bdf                         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/Main.bdf                   ;         ;
-; SixBitsToBcdMain.bdf             ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/SixBitsToBcdMain.bdf       ;         ;
-; MUX2x1.bdf                       ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/MUX2x1.bdf                 ;         ;
-; decoder.bdf                      ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/decoder.bdf                ;         ;
-; THEPROJECT.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/THEPROJECT.bdf             ;         ;
-; output_files/isdisplay.bdf       ; yes             ; User Block Diagram/Schematic File  ; D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/output_files/isdisplay.bdf ;         ;
+; aura.bdf                         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/aura.bdf                   ;         ;
+; Adder.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/Adder.bdf                  ;         ;
+; adder5bits.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/adder5bits.bdf             ;         ;
+; complement.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/complement.bdf             ;         ;
+; Adder_Subtrator.bdf              ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/Adder_Subtrator.bdf        ;         ;
+; Comp_equal.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/Comp_equal.bdf             ;         ;
+; Comp_bigger.bdf                  ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/Comp_bigger.bdf            ;         ;
+; Comp_smaller.bdf                 ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/Comp_smaller.bdf           ;         ;
+; SixBitsToBcdPositive.bdf         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/SixBitsToBcdPositive.bdf   ;         ;
+; SixBitsToBcdNegative.bdf         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/SixBitsToBcdNegative.bdf   ;         ;
+; Main.bdf                         ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/Main.bdf                   ;         ;
+; SixBitsToBcdMain.bdf             ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/SixBitsToBcdMain.bdf       ;         ;
+; MUX2x1.bdf                       ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/MUX2x1.bdf                 ;         ;
+; decoder.bdf                      ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/decoder.bdf                ;         ;
+; THEPROJECT.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/THEPROJECT.bdf             ;         ;
+; output_files/isdisplay.bdf       ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/output_files/isdisplay.bdf ;         ;
+; AURA2.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/AURA2.bdf                  ;         ;
+; output_files/AURA3.bdf           ; yes             ; User Block Diagram/Schematic File  ; D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/output_files/AURA3.bdf     ;         ;
 +----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------+---------+
 
 
@@ -196,9 +198,9 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;            ;
 ; Total combinational functions               ; 134        ;
 ; Logic element usage by number of LUT inputs ;            ;
-;     -- 4 input functions                    ; 96         ;
-;     -- 3 input functions                    ; 32         ;
-;     -- <=2 input functions                  ; 6          ;
+;     -- 4 input functions                    ; 87         ;
+;     -- 3 input functions                    ; 40         ;
+;     -- <=2 input functions                  ; 7          ;
 ;                                             ;            ;
 ; Logic elements by mode                      ;            ;
 ;     -- normal mode                          ; 134        ;
@@ -212,10 +214,10 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;            ;
 ; Embedded Multiplier 9-bit elements          ; 0          ;
 ;                                             ;            ;
-; Maximum fan-out node                        ; M[1]~input ;
+; Maximum fan-out node                        ; M[2]~input ;
 ; Maximum fan-out                             ; 26         ;
-; Total fan-out                               ; 610        ;
-; Average fan-out                             ; 2.26       ;
+; Total fan-out                               ; 600        ;
+; Average fan-out                             ; 2.22       ;
 +---------------------------------------------+------------+
 
 
@@ -225,29 +227,40 @@ https://fpgasoftware.intel.com/eula.
 ; Compilation Hierarchy Node             ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                          ; Entity Name          ; Library Name ;
 +----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------+----------------------+--------------+
 ; |THEPROJECT                            ; 134 (1)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 68   ; 0            ; |THEPROJECT                                                                  ; THEPROJECT           ; work         ;
-;    |Main:inst|                         ; 39 (25)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst                                                        ; Main                 ; work         ;
-;       |Adder_Subtrator:inst15|         ; 14 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15                                 ; Adder_Subtrator      ; work         ;
-;          |adder5bits:inst|             ; 10 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst                 ; adder5bits           ; work         ;
+;    |AURA2:inst1|                       ; 4 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA2:inst1                                                      ; AURA2                ; work         ;
+;       |Adder:inst4|                    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA2:inst1|Adder:inst4                                          ; Adder                ; work         ;
+;       |Adder:inst5|                    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA2:inst1|Adder:inst5                                          ; Adder                ; work         ;
+;       |Adder:inst6|                    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA2:inst1|Adder:inst6                                          ; Adder                ; work         ;
+;    |AURA2:inst5|                       ; 4 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA2:inst5                                                      ; AURA2                ; work         ;
+;       |Adder:inst4|                    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA2:inst5|Adder:inst4                                          ; Adder                ; work         ;
+;       |Adder:inst5|                    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA2:inst5|Adder:inst5                                          ; Adder                ; work         ;
+;       |Adder:inst6|                    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA2:inst5|Adder:inst6                                          ; Adder                ; work         ;
+;    |AURA3:inst10|                      ; 6 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA3:inst10                                                     ; AURA3                ; work         ;
+;       |Adder:inst4|                    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA3:inst10|Adder:inst4                                         ; Adder                ; work         ;
+;       |Adder:inst5|                    ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA3:inst10|Adder:inst5                                         ; Adder                ; work         ;
+;       |Adder:inst63|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA3:inst10|Adder:inst63                                        ; Adder                ; work         ;
+;       |Adder:inst6|                    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|AURA3:inst10|Adder:inst6                                         ; Adder                ; work         ;
+;    |Main:inst|                         ; 40 (27)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst                                                        ; Main                 ; work         ;
+;       |Adder_Subtrator:inst15|         ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15                                 ; Adder_Subtrator      ; work         ;
+;          |adder5bits:inst|             ; 9 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst                 ; adder5bits           ; work         ;
 ;             |Adder:inst2|              ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst2     ; Adder                ; work         ;
 ;             |Adder:inst3|              ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst3     ; Adder                ; work         ;
 ;             |Adder:inst4|              ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst4     ; Adder                ; work         ;
 ;             |Adder:inst5|              ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst5     ; Adder                ; work         ;
-;             |Adder:inst|               ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst      ; Adder                ; work         ;
+;             |Adder:inst|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst      ; Adder                ; work         ;
 ;          |complement:comp|             ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|complement:comp                 ; complement           ; work         ;
-;    |decoder:inst2|                     ; 11 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst2                                                    ; decoder              ; work         ;
-;       |SixBitsToBcdMain:inst2|         ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst2|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
-;       |aura:inst1|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst2|aura:inst1                                         ; aura                 ; work         ;
-;    |decoder:inst3|                     ; 11 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst3                                                    ; decoder              ; work         ;
-;       |SixBitsToBcdMain:inst2|         ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst3|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
-;       |aura:inst1|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst3|aura:inst1                                         ; aura                 ; work         ;
-;    |decoder:inst4|                     ; 30 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst4                                                    ; decoder              ; work         ;
-;       |SixBitsToBcdMain:inst2|         ; 28 (27)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst4|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
+;    |decoder:inst2|                     ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst2                                                    ; decoder              ; work         ;
+;       |SixBitsToBcdMain:inst2|         ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst2|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
+;    |decoder:inst3|                     ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst3                                                    ; decoder              ; work         ;
+;       |SixBitsToBcdMain:inst2|         ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst3|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
+;    |decoder:inst4|                     ; 31 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst4                                                    ; decoder              ; work         ;
+;       |SixBitsToBcdMain:inst2|         ; 29 (28)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst4|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
 ;          |SixBitsToBcdNegative:inst16| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst4|SixBitsToBcdMain:inst2|SixBitsToBcdNegative:inst16 ; SixBitsToBcdNegative ; work         ;
 ;       |aura:inst1|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|decoder:inst4|aura:inst1                                         ; aura                 ; work         ;
-;    |isdisplay:inst13|                  ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst13                                                 ; isdisplay            ; work         ;
-;    |isdisplay:inst14|                  ; 10 (10)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst14                                                 ; isdisplay            ; work         ;
-;    |isdisplay:inst15|                  ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst15                                                 ; isdisplay            ; work         ;
-;    |isdisplay:inst16|                  ; 10 (10)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst16                                                 ; isdisplay            ; work         ;
+;    |isdisplay:inst13|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst13                                                 ; isdisplay            ; work         ;
+;    |isdisplay:inst14|                  ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst14                                                 ; isdisplay            ; work         ;
+;    |isdisplay:inst15|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst15                                                 ; isdisplay            ; work         ;
+;    |isdisplay:inst16|                  ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst16                                                 ; isdisplay            ; work         ;
 ;    |isdisplay:inst17|                  ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst17                                                 ; isdisplay            ; work         ;
 ;    |isdisplay:inst8|                   ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |THEPROJECT|isdisplay:inst8                                                  ; isdisplay            ; work         ;
 +----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------+----------------------+--------------+
@@ -288,12 +301,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;     normal            ; 139                         ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 4                           ;
-;         2 data inputs ; 6                           ;
-;         3 data inputs ; 32                          ;
-;         4 data inputs ; 96                          ;
+;         2 data inputs ; 7                           ;
+;         3 data inputs ; 40                          ;
+;         4 data inputs ; 87                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 13.00                       ;
-; Average LUT depth     ; 8.30                        ;
+; Max LUT depth         ; 12.00                       ;
+; Average LUT depth     ; 8.55                        ;
 +-----------------------+-----------------------------+
 
 
@@ -312,7 +325,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
-    Info: Processing started: Thu Sep 24 08:19:37 2026
+    Info: Processing started: Tue Sep 29 16:48:59 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off aura -c aura
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -354,6 +367,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file theproj
     Info (12023): Found entity 1: THEPROJECT
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/isdisplay.bdf
     Info (12023): Found entity 1: isdisplay
+Info (12021): Found 1 design units, including 1 entities, in source file aura2.bdf
+    Info (12023): Found entity 1: AURA2
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/aura3.bdf
+    Info (12023): Found entity 1: AURA3
 Info (12127): Elaborating entity "THEPROJECT" for the top level hierarchy
 Warning (275011): Block or symbol "Main" of instance "inst" overlaps another block or symbol
 Info (12128): Elaborating entity "Main" for hierarchy "Main:inst"
@@ -367,6 +384,8 @@ Warning (275008): Primitive "GND" of instance "inst8" not used
 Info (12128): Elaborating entity "Adder" for hierarchy "Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst"
 Info (12128): Elaborating entity "complement" for hierarchy "Main:inst|Adder_Subtrator:inst15|complement:comp"
 Info (12128): Elaborating entity "MUX2x1" for hierarchy "Main:inst|MUX2x1:inst6"
+Info (12128): Elaborating entity "AURA2" for hierarchy "AURA2:inst1"
+Info (12128): Elaborating entity "AURA3" for hierarchy "AURA3:inst10"
 Info (12128): Elaborating entity "isdisplay" for hierarchy "isdisplay:inst8"
 Warning (275011): Block or symbol "OR2" of instance "inst9" overlaps another block or symbol
 Info (12128): Elaborating entity "decoder" for hierarchy "decoder:inst4"
@@ -390,8 +409,8 @@ Info (21057): Implemented 202 device resources after synthesis - the final resou
     Info (21061): Implemented 134 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
     Info: Peak virtual memory: 4801 megabytes
-    Info: Processing ended: Thu Sep 24 08:19:45 2026
+    Info: Processing ended: Tue Sep 29 16:49:07 2026
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Total CPU time (on all processors): 00:00:19
 
 

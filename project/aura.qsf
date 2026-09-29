@@ -79,16 +79,6 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
 set_global_assignment -name BDF_FILE decoder.bdf
 set_global_assignment -name BDF_FILE mainactually.bdf
 set_global_assignment -name BDF_FILE THEPROJECT.bdf
-set_location_assignment PIN_Y23 -to A[4]
-set_location_assignment PIN_Y24 -to A[3]
-set_location_assignment PIN_AA22 -to A[2]
-set_location_assignment PIN_AA23 -to A[1]
-set_location_assignment PIN_AA24 -to A[0]
-set_location_assignment PIN_AB23 -to B[4]
-set_location_assignment PIN_AB24 -to B[3]
-set_location_assignment PIN_AC24 -to B[2]
-set_location_assignment PIN_AB25 -to B[1]
-set_location_assignment PIN_AC25 -to B[0]
 set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform.vwf
 set_location_assignment PIN_AC27 -to M[2]
 set_location_assignment PIN_AC28 -to M[1]
@@ -144,6 +134,18 @@ set_location_assignment PIN_F21 -to S[3]
 set_location_assignment PIN_F18 -to S[4]
 set_location_assignment PIN_E18 -to S[5]
 set_global_assignment -name BDF_FILE output_files/isdisplay.bdf
+set_global_assignment -name BDF_FILE AURA2.bdf
+set_location_assignment PIN_Y23 -to K[4]
+set_location_assignment PIN_Y24 -to K[3]
+set_location_assignment PIN_AA22 -to K[2]
+set_location_assignment PIN_AA23 -to K[1]
+set_location_assignment PIN_AA24 -to K[0]
+set_location_assignment PIN_AB23 -to L[4]
+set_location_assignment PIN_AB24 -to L[3]
+set_location_assignment PIN_AC24 -to L[2]
+set_location_assignment PIN_AB25 -to L[1]
+set_location_assignment PIN_AC25 -to L[0]
+set_global_assignment -name BDF_FILE output_files/AURA3.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

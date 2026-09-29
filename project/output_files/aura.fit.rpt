@@ -1,5 +1,5 @@
 Fitter report for aura
-Thu Sep 24 08:19:53 2026
+Tue Sep 29 16:49:15 2026
 Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 
 
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Thu Sep 24 08:19:53 2026       ;
+; Fitter Status                      ; Successful - Tue Sep 29 16:49:15 2026       ;
 ; Quartus Prime Version              ; 21.1.1 Build 850 06/23/2022 SJ Lite Edition ;
 ; Revision Name                      ; aura                                        ;
 ; Top-level Entity Name              ; THEPROJECT                                  ;
@@ -196,7 +196,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/output_files/aura.pin.
+The pin-out file can be found in D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/output_files/aura.pin.
 
 
 +-----------------------------------------------------------------------+
@@ -210,9 +210,9 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ;     -- Combinational with a register        ; 0                       ;
 ;                                             ;                         ;
 ; Logic element usage by number of LUT inputs ;                         ;
-;     -- 4 input functions                    ; 96                      ;
-;     -- 3 input functions                    ; 32                      ;
-;     -- <=2 input functions                  ; 6                       ;
+;     -- 4 input functions                    ; 87                      ;
+;     -- 3 input functions                    ; 40                      ;
+;     -- <=2 input functions                  ; 7                       ;
 ;     -- Register only                        ; 0                       ;
 ;                                             ;                         ;
 ; Logic elements by mode                      ;                         ;
@@ -241,12 +241,12 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )           ;
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )           ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )           ;
-; Average interconnect usage (total/H/V)      ; 0.1% / 0.1% / 0.1%      ;
-; Peak interconnect usage (total/H/V)         ; 1.4% / 1.2% / 2.0%      ;
+; Average interconnect usage (total/H/V)      ; 0.1% / 0.1% / 0.2%      ;
+; Peak interconnect usage (total/H/V)         ; 1.6% / 1.1% / 2.4%      ;
 ; Maximum fan-out                             ; 26                      ;
 ; Highest non-global fan-out                  ; 26                      ;
-; Total fan-out                               ; 615                     ;
-; Average fan-out                             ; 2.20                    ;
+; Total fan-out                               ; 605                     ;
+; Average fan-out                             ; 2.16                    ;
 +---------------------------------------------+-------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -265,9 +265,9 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ;     -- Combinational with a register        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic element usage by number of LUT inputs ;                        ;                                ;
-;     -- 4 input functions                    ; 96                     ; 0                              ;
-;     -- 3 input functions                    ; 32                     ; 0                              ;
-;     -- <=2 input functions                  ; 6                      ; 0                              ;
+;     -- 4 input functions                    ; 87                     ; 0                              ;
+;     -- 3 input functions                    ; 40                     ; 0                              ;
+;     -- <=2 input functions                  ; 7                      ; 0                              ;
 ;     -- Register only                        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic elements by mode                      ;                        ;                                ;
@@ -293,7 +293,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ;     -- Registered Output Connections        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Internal Connections                        ;                        ;                                ;
-;     -- Total Connections                    ; 610                    ; 5                              ;
+;     -- Total Connections                    ; 600                    ; 5                              ;
 ;     -- Registered Connections               ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; External Connections                        ;                        ;                                ;
@@ -326,19 +326,19 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; A[0] ; AA24  ; 5        ; 115          ; 9            ; 21           ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; A[1] ; AA23  ; 5        ; 115          ; 10           ; 7            ; 12                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; A[2] ; AA22  ; 5        ; 115          ; 6            ; 14           ; 12                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; A[3] ; Y24   ; 5        ; 115          ; 13           ; 0            ; 11                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; A[4] ; Y23   ; 5        ; 115          ; 14           ; 7            ; 13                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; B[0] ; AC25  ; 5        ; 115          ; 4            ; 21           ; 18                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; B[1] ; AB25  ; 5        ; 115          ; 16           ; 7            ; 11                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; B[2] ; AC24  ; 5        ; 115          ; 4            ; 14           ; 11                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; B[3] ; AB24  ; 5        ; 115          ; 5            ; 14           ; 10                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; B[4] ; AB23  ; 5        ; 115          ; 7            ; 14           ; 12                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; M[0] ; AB28  ; 5        ; 115          ; 17           ; 0            ; 13                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; K[0] ; AA24  ; 5        ; 115          ; 9            ; 21           ; 17                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; K[1] ; AA23  ; 5        ; 115          ; 10           ; 7            ; 9                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; K[2] ; AA22  ; 5        ; 115          ; 6            ; 14           ; 8                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; K[3] ; Y24   ; 5        ; 115          ; 13           ; 0            ; 9                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; K[4] ; Y23   ; 5        ; 115          ; 14           ; 7            ; 4                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; L[0] ; AC25  ; 5        ; 115          ; 4            ; 21           ; 18                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; L[1] ; AB25  ; 5        ; 115          ; 16           ; 7            ; 10                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; L[2] ; AC24  ; 5        ; 115          ; 4            ; 14           ; 8                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; L[3] ; AB24  ; 5        ; 115          ; 5            ; 14           ; 9                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; L[4] ; AB23  ; 5        ; 115          ; 7            ; 14           ; 5                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; M[0] ; AB28  ; 5        ; 115          ; 17           ; 0            ; 11                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 ; M[1] ; AC28  ; 5        ; 115          ; 14           ; 0            ; 26                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
-; M[2] ; AC27  ; 5        ; 115          ; 15           ; 7            ; 25                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; M[2] ; AC27  ; 5        ; 115          ; 15           ; 7            ; 26                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
 
@@ -361,7 +361,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; U[4]  ; E17   ; 7        ; 67           ; 73           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; U[5]  ; F22   ; 7        ; 107          ; 73           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; U[6]  ; G18   ; 7        ; 69           ; 73           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; U[7]  ; AC10  ; 3        ; 38           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; U[7]  ; B6    ; 8        ; 27           ; 73           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; V[0]  ; U24   ; 5        ; 115          ; 28           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; V[1]  ; U23   ; 5        ; 115          ; 22           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; V[2]  ; W25   ; 5        ; 115          ; 20           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
@@ -377,7 +377,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; W[4]  ; AB18  ; 4        ; 98           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; W[5]  ; AC18  ; 4        ; 87           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; W[6]  ; AD18  ; 4        ; 85           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; W[7]  ; AD26  ; 5        ; 115          ; 10           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; W[7]  ; AE27  ; 5        ; 115          ; 12           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; X[0]  ; AA14  ; 3        ; 54           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; X[1]  ; AG18  ; 4        ; 69           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; X[2]  ; AF17  ; 4        ; 67           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
@@ -385,7 +385,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; X[4]  ; AG17  ; 4        ; 62           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; X[5]  ; AE17  ; 4        ; 67           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; X[6]  ; AD17  ; 4        ; 74           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; X[7]  ; Y16   ; 4        ; 96           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; X[7]  ; AD28  ; 5        ; 115          ; 12           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; Y[0]  ; AC17  ; 4        ; 74           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; Y[1]  ; AA15  ; 4        ; 67           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; Y[2]  ; AB15  ; 4        ; 67           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
@@ -393,7 +393,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; Y[4]  ; AA16  ; 4        ; 65           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; Y[5]  ; AB16  ; 4        ; 65           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; Y[6]  ; AA17  ; 4        ; 89           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; Y[7]  ; AD1   ; 2        ; 0            ; 21           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; Y[7]  ; M21   ; 6        ; 115          ; 53           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; Z[0]  ; AE18  ; 4        ; 79           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; Z[1]  ; AF19  ; 4        ; 83           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; Z[2]  ; AE19  ; 4        ; 83           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
@@ -401,7 +401,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; Z[4]  ; AG21  ; 4        ; 74           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; Z[5]  ; AA19  ; 4        ; 107          ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 ; Z[6]  ; AB19  ; 4        ; 98           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
-; Z[7]  ; D23   ; 7        ; 100          ; 73           ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; Z[7]  ; V3    ; 2        ; 0            ; 29           ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 +-------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -423,6 +423,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; M22      ; MSEL2                       ; -                        ; -                       ; Dedicated Programming Pin ;
 ; P22      ; MSEL3                       ; -                        ; -                       ; Dedicated Programming Pin ;
 ; P28      ; DIFFIO_R23n, nCEO           ; Use as programming pin   ; ~ALTERA_nCEO~           ; Dual Purpose Pin          ;
+; B6       ; DIFFIO_T17p, DATA6          ; Use as regular IO        ; U[7]                    ; Dual Purpose Pin          ;
 +----------+-----------------------------+--------------------------+-------------------------+---------------------------+
 
 
@@ -433,12 +434,12 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 +----------+------------------+---------------+--------------+
 ; 1        ; 4 / 56 ( 7 % )   ; 2.5V          ; --           ;
 ; 2        ; 1 / 63 ( 2 % )   ; 2.5V          ; --           ;
-; 3        ; 2 / 73 ( 3 % )   ; 2.5V          ; --           ;
-; 4        ; 28 / 71 ( 39 % ) ; 2.5V          ; --           ;
-; 5        ; 21 / 65 ( 32 % ) ; 2.5V          ; --           ;
-; 6        ; 6 / 58 ( 10 % )  ; 2.5V          ; --           ;
-; 7        ; 11 / 72 ( 15 % ) ; 2.5V          ; --           ;
-; 8        ; 0 / 71 ( 0 % )   ; 2.5V          ; --           ;
+; 3        ; 1 / 73 ( 1 % )   ; 2.5V          ; --           ;
+; 4        ; 27 / 71 ( 38 % ) ; 2.5V          ; --           ;
+; 5        ; 22 / 65 ( 34 % ) ; 2.5V          ; --           ;
+; 6        ; 7 / 58 ( 12 % )  ; 2.5V          ; --           ;
+; 7        ; 10 / 72 ( 14 % ) ; 2.5V          ; --           ;
+; 8        ; 1 / 71 ( 1 % )   ; 2.5V          ; --           ;
 +----------+------------------+---------------+--------------+
 
 
@@ -494,9 +495,9 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; AA19     ; 264        ; 4        ; Z[5]                                                      ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AA20     ;            ;          ; GNDA4                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AA21     ; 269        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; AA22     ; 275        ; 5        ; A[2]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; AA23     ; 280        ; 5        ; A[1]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; AA24     ; 279        ; 5        ; A[0]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AA22     ; 275        ; 5        ; K[2]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AA23     ; 280        ; 5        ; K[1]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AA24     ; 279        ; 5        ; K[0]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AA25     ; 294        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AA26     ; 293        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AA27     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -523,9 +524,9 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; AB20     ; 257        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; AB21     ; 266        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AB22     ; 265        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; AB23     ; 276        ; 5        ; B[4]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; AB24     ; 274        ; 5        ; B[3]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; AB25     ; 292        ; 5        ; B[1]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AB23     ; 276        ; 5        ; L[4]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AB24     ; 274        ; 5        ; L[3]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AB25     ; 292        ; 5        ; L[1]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AB26     ; 291        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AB27     ; 296        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AB28     ; 295        ; 5        ; M[0]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
@@ -538,7 +539,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; AC7      ; 144        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC8      ; 153        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC9      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; AC10     ; 174        ; 3        ; U[7]                                                      ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; AC10     ; 174        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC11     ; 185        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC12     ; 179        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC13     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -552,12 +553,12 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; AC21     ; 258        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC22     ; 267        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AC23     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; AC24     ; 273        ; 5        ; B[2]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; AC25     ; 272        ; 5        ; B[0]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AC24     ; 273        ; 5        ; L[2]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AC25     ; 272        ; 5        ; L[0]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AC26     ; 282        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AC27     ; 290        ; 5        ; M[2]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AC28     ; 289        ; 5        ; M[1]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; AD1      ; 98         ; 2        ; Y[7]                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; AD1      ; 98         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AD2      ; 97         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AD3      ; 96         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AD4      ; 130        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -582,9 +583,9 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; AD23     ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; AD24     ; 260        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AD25     ; 255        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; AD26     ; 281        ; 5        ; W[7]                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; AD26     ; 281        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AD27     ; 286        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; AD28     ; 285        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; AD28     ; 285        ; 5        ; X[7]                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; AE1      ; 106        ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AE2      ; 105        ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AE3      ; 122        ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -611,7 +612,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; AE24     ; 256        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AE25     ; 243        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AE26     ; 278        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; AE27     ; 284        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; AE27     ; 284        ; 5        ; W[7]                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; AE28     ; 283        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AF1      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AF2      ; 123        ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -700,7 +701,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; B3       ; 534        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B4       ; 533        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B5       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; B6       ; 505        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; B6       ; 505        ; 8        ; U[7]                                                      ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B7       ; 502        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B8       ; 518        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B9       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -773,7 +774,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; D20      ; 432        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D21      ; 419        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D22      ; 402        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; D23      ; 414        ; 7        ; Z[7]                                                      ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; D23      ; 414        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D24      ; 417        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D25      ; 410        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D26      ; 383        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -995,7 +996,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; M18      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; M19      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; M20      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; M21      ; 368        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; M21      ; 368        ; 6        ; Y[7]                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M22      ; 342        ; 6        ; ^MSEL2                                                    ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; M23      ; 344        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; M24      ; 347        ; 6        ; V[6]                                                      ; output ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
@@ -1145,7 +1146,7 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; U28      ; 317        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; V1       ; 84         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; V2       ; 83         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; V3       ; 82         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; V3       ; 82         ; 2        ; Z[7]                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; V4       ; 81         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; V5       ; 108        ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; V6       ; 107        ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -1214,15 +1215,15 @@ The pin-out file can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/proj
 ; Y13      ; 189        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y14      ; 197        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y15      ; 198        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; Y16      ; 250        ; 4        ; X[7]                                                      ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; Y16      ; 250        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y17      ; 249        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y18      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; Y19      ; 263        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; Y20      ;            ;          ; VCCD_PLL4                                                 ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; Y21      ;            ; --       ; VCCA4                                                     ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; Y22      ; 320        ; 5        ; V[5]                                                      ; output ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; Y23      ; 288        ; 5        ; A[4]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; Y24      ; 287        ; 5        ; A[3]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; Y23      ; 288        ; 5        ; K[4]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; Y24      ; 287        ; 5        ; K[3]                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; Y25      ; 298        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; Y26      ; 297        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; Y27      ; 336        ; 5        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
@@ -1291,18 +1292,18 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; Z[2]     ; Incomplete set of assignments ;
 ; Z[1]     ; Incomplete set of assignments ;
 ; Z[0]     ; Incomplete set of assignments ;
-; A[0]     ; Incomplete set of assignments ;
-; B[0]     ; Incomplete set of assignments ;
-; A[1]     ; Incomplete set of assignments ;
-; B[1]     ; Incomplete set of assignments ;
-; A[3]     ; Incomplete set of assignments ;
-; B[3]     ; Incomplete set of assignments ;
-; A[4]     ; Incomplete set of assignments ;
-; B[4]     ; Incomplete set of assignments ;
-; A[2]     ; Incomplete set of assignments ;
-; B[2]     ; Incomplete set of assignments ;
 ; M[2]     ; Incomplete set of assignments ;
 ; M[1]     ; Incomplete set of assignments ;
+; K[0]     ; Incomplete set of assignments ;
+; L[0]     ; Incomplete set of assignments ;
+; K[4]     ; Incomplete set of assignments ;
+; K[3]     ; Incomplete set of assignments ;
+; K[2]     ; Incomplete set of assignments ;
+; K[1]     ; Incomplete set of assignments ;
+; L[4]     ; Incomplete set of assignments ;
+; L[3]     ; Incomplete set of assignments ;
+; L[2]     ; Incomplete set of assignments ;
+; L[1]     ; Incomplete set of assignments ;
 ; M[0]     ; Incomplete set of assignments ;
 ; U[7]     ; Missing location assignment   ;
 ; W[7]     ; Missing location assignment   ;
@@ -1318,29 +1319,40 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; Compilation Hierarchy Node             ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                          ; Entity Name          ; Library Name ;
 +----------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------------------------------------+----------------------+--------------+
 ; |THEPROJECT                            ; 134 (1)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 68   ; 0            ; 134 (1)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT                                                                  ; THEPROJECT           ; work         ;
-;    |Main:inst|                         ; 39 (25)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 39 (25)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst                                                        ; Main                 ; work         ;
-;       |Adder_Subtrator:inst15|         ; 14 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 14 (0)       ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15                                 ; Adder_Subtrator      ; work         ;
-;          |adder5bits:inst|             ; 10 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 10 (0)       ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst                 ; adder5bits           ; work         ;
+;    |AURA2:inst1|                       ; 4 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA2:inst1                                                      ; AURA2                ; work         ;
+;       |Adder:inst4|                    ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA2:inst1|Adder:inst4                                          ; Adder                ; work         ;
+;       |Adder:inst5|                    ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA2:inst1|Adder:inst5                                          ; Adder                ; work         ;
+;       |Adder:inst6|                    ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA2:inst1|Adder:inst6                                          ; Adder                ; work         ;
+;    |AURA2:inst5|                       ; 4 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA2:inst5                                                      ; AURA2                ; work         ;
+;       |Adder:inst4|                    ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA2:inst5|Adder:inst4                                          ; Adder                ; work         ;
+;       |Adder:inst5|                    ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA2:inst5|Adder:inst5                                          ; Adder                ; work         ;
+;       |Adder:inst6|                    ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA2:inst5|Adder:inst6                                          ; Adder                ; work         ;
+;    |AURA3:inst10|                      ; 6 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA3:inst10                                                     ; AURA3                ; work         ;
+;       |Adder:inst4|                    ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA3:inst10|Adder:inst4                                         ; Adder                ; work         ;
+;       |Adder:inst5|                    ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA3:inst10|Adder:inst5                                         ; Adder                ; work         ;
+;       |Adder:inst63|                   ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA3:inst10|Adder:inst63                                        ; Adder                ; work         ;
+;       |Adder:inst6|                    ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|AURA3:inst10|Adder:inst6                                         ; Adder                ; work         ;
+;    |Main:inst|                         ; 40 (27)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 40 (27)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst                                                        ; Main                 ; work         ;
+;       |Adder_Subtrator:inst15|         ; 13 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 13 (0)       ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15                                 ; Adder_Subtrator      ; work         ;
+;          |adder5bits:inst|             ; 9 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 9 (0)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst                 ; adder5bits           ; work         ;
 ;             |Adder:inst2|              ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst2     ; Adder                ; work         ;
 ;             |Adder:inst3|              ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst3     ; Adder                ; work         ;
 ;             |Adder:inst4|              ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst4     ; Adder                ; work         ;
 ;             |Adder:inst5|              ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst5     ; Adder                ; work         ;
-;             |Adder:inst|               ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst      ; Adder                ; work         ;
+;             |Adder:inst|               ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst      ; Adder                ; work         ;
 ;          |complement:comp|             ; 4 (4)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|Main:inst|Adder_Subtrator:inst15|complement:comp                 ; complement           ; work         ;
-;    |decoder:inst2|                     ; 11 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 11 (0)       ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst2                                                    ; decoder              ; work         ;
-;       |SixBitsToBcdMain:inst2|         ; 9 (9)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 9 (9)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst2|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
-;       |aura:inst1|                     ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst2|aura:inst1                                         ; aura                 ; work         ;
-;    |decoder:inst3|                     ; 11 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 11 (0)       ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst3                                                    ; decoder              ; work         ;
-;       |SixBitsToBcdMain:inst2|         ; 9 (9)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 9 (9)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst3|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
-;       |aura:inst1|                     ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst3|aura:inst1                                         ; aura                 ; work         ;
-;    |decoder:inst4|                     ; 30 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 30 (0)       ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst4                                                    ; decoder              ; work         ;
-;       |SixBitsToBcdMain:inst2|         ; 28 (27)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 28 (27)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst4|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
+;    |decoder:inst2|                     ; 3 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (0)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst2                                                    ; decoder              ; work         ;
+;       |SixBitsToBcdMain:inst2|         ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst2|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
+;    |decoder:inst3|                     ; 3 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (0)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst3                                                    ; decoder              ; work         ;
+;       |SixBitsToBcdMain:inst2|         ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst3|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
+;    |decoder:inst4|                     ; 31 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 31 (0)       ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst4                                                    ; decoder              ; work         ;
+;       |SixBitsToBcdMain:inst2|         ; 29 (28)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 29 (28)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst4|SixBitsToBcdMain:inst2                             ; SixBitsToBcdMain     ; work         ;
 ;          |SixBitsToBcdNegative:inst16| ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst4|SixBitsToBcdMain:inst2|SixBitsToBcdNegative:inst16 ; SixBitsToBcdNegative ; work         ;
 ;       |aura:inst1|                     ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|decoder:inst4|aura:inst1                                         ; aura                 ; work         ;
-;    |isdisplay:inst13|                  ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst13                                                 ; isdisplay            ; work         ;
-;    |isdisplay:inst14|                  ; 10 (10)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 10 (10)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst14                                                 ; isdisplay            ; work         ;
-;    |isdisplay:inst15|                  ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst15                                                 ; isdisplay            ; work         ;
-;    |isdisplay:inst16|                  ; 10 (10)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 10 (10)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst16                                                 ; isdisplay            ; work         ;
+;    |isdisplay:inst13|                  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst13                                                 ; isdisplay            ; work         ;
+;    |isdisplay:inst14|                  ; 11 (11)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 11 (11)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst14                                                 ; isdisplay            ; work         ;
+;    |isdisplay:inst15|                  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst15                                                 ; isdisplay            ; work         ;
+;    |isdisplay:inst16|                  ; 11 (11)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 11 (11)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst16                                                 ; isdisplay            ; work         ;
 ;    |isdisplay:inst17|                  ; 5 (5)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst17                                                 ; isdisplay            ; work         ;
 ;    |isdisplay:inst8|                   ; 11 (11)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 11 (11)      ; 0 (0)             ; 0 (0)            ; |THEPROJECT|isdisplay:inst8                                                  ; isdisplay            ; work         ;
 +----------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------------------------------------+----------------------+--------------+
@@ -1407,231 +1419,201 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Z[2]  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; Z[1]  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; Z[0]  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; A[0]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; B[0]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; A[1]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; B[1]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; A[3]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; B[3]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; A[4]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; B[4]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; A[2]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; B[2]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; M[2]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; M[1]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; M[0]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; K[0]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; L[0]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; K[4]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; K[3]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; K[2]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; K[1]  ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; L[4]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; L[3]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; L[2]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; L[1]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; M[0]  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 +-------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+-----------------------------------------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                                                            ;
-+-----------------------------------------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                                                         ; Pad To Core Index ; Setting ;
-+-----------------------------------------------------------------------------+-------------------+---------+
-; A[0]                                                                        ;                   ;         ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst|inst4~1  ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~1                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~2                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~0                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~1                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~0                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~1                        ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst5~2                                             ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst6                                               ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst8                                               ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst9~2                                             ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst10                                              ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst11~0                                            ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst12~2                                            ; 0                 ; 6       ;
-;      - Main:inst|inst24~4                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst19~10                                                  ; 0                 ; 6       ;
-; B[0]                                                                        ;                   ;         ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst|inst4~0  ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst|inst4~1  ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~1                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~2                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~0                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~1                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~0                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~1                        ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst5~2                                             ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst6                                               ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst8                                               ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst9~2                                             ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst10                                              ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst11~0                                            ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst12~2                                            ; 0                 ; 6       ;
-;      - Main:inst|inst24~4                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst24~5                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst19~10                                                  ; 0                 ; 6       ;
-; A[1]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~4                                                   ; 1                 ; 6       ;
-;      - Main:inst|inst19~7                                                   ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst2|inst4~0 ; 1                 ; 6       ;
-;      - Main:inst|inst23~0                                                   ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst2|inst1~0 ; 1                 ; 6       ;
-;      - isdisplay:inst13|inst5~0                                             ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~1                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~2                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~0                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~1                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~0                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~1                        ; 1                 ; 6       ;
-; B[1]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~4                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst19~7                                                   ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst3               ; 0                 ; 6       ;
-;      - Main:inst|inst23~0                                                   ; 0                 ; 6       ;
-;      - isdisplay:inst15|inst5~0                                             ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~1                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~2                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~0                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~1                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~0                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~1                        ; 0                 ; 6       ;
-; A[3]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~3                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst19~5                                                   ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst4|inst4~0 ; 0                 ; 6       ;
-;      - Main:inst|inst21~0                                                   ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst4|inst1   ; 0                 ; 6       ;
-;      - isdisplay:inst13|inst5~0                                             ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~0                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~2                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~0                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~1                        ; 0                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~2                        ; 0                 ; 6       ;
-; B[3]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~3                                                   ; 1                 ; 6       ;
-;      - Main:inst|inst19~5                                                   ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst1               ; 1                 ; 6       ;
-;      - Main:inst|inst21~0                                                   ; 1                 ; 6       ;
-;      - isdisplay:inst15|inst5~0                                             ; 1                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~0                        ; 1                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~2                        ; 1                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~0                        ; 1                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~1                        ; 1                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~2                        ; 1                 ; 6       ;
-; A[4]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~2                                                   ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst5|inst4~0 ; 1                 ; 6       ;
-;      - Main:inst|inst2~0                                                    ; 1                 ; 6       ;
-;      - isdisplay:inst13|inst50                                              ; 1                 ; 6       ;
-;      - isdisplay:inst13|inst5~0                                             ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~0                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~2                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~0                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~1                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~0                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~1                        ; 1                 ; 6       ;
-;      - Main:inst|inst19~9                                                   ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst5|inst1~2 ; 1                 ; 6       ;
-; B[4]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~2                                                   ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst                ; 0                 ; 6       ;
-;      - Main:inst|inst2~0                                                    ; 0                 ; 6       ;
-;      - isdisplay:inst15|inst50                                              ; 0                 ; 6       ;
-;      - isdisplay:inst15|inst5~0                                             ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~0                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~2                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~0                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~1                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~0                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~1                        ; 0                 ; 6       ;
-;      - Main:inst|inst19~9                                                   ; 0                 ; 6       ;
-; A[2]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~2                                                   ; 1                 ; 6       ;
-;      - Main:inst|inst19~5                                                   ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst3|inst4~0 ; 1                 ; 6       ;
-;      - Main:inst|inst22~0                                                   ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst3|inst1   ; 1                 ; 6       ;
-;      - isdisplay:inst13|inst5~0                                             ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~1                        ; 1                 ; 6       ;
-;      - decoder:inst2|aura:inst1|inst26~0                                    ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~2                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~0                        ; 1                 ; 6       ;
-;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~1                        ; 1                 ; 6       ;
-;      - decoder:inst2|aura:inst1|inst26~1                                    ; 1                 ; 6       ;
-; B[2]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~2                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst19~5                                                   ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst2               ; 0                 ; 6       ;
-;      - Main:inst|inst22~0                                                   ; 0                 ; 6       ;
-;      - isdisplay:inst15|inst5~0                                             ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~1                        ; 0                 ; 6       ;
-;      - decoder:inst3|aura:inst1|inst26~0                                    ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~2                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~0                        ; 0                 ; 6       ;
-;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~1                        ; 0                 ; 6       ;
-;      - decoder:inst3|aura:inst1|inst26~1                                    ; 0                 ; 6       ;
-; M[2]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~6                                                   ; 1                 ; 6       ;
-;      - Main:inst|inst19~8                                                   ; 1                 ; 6       ;
-;      - Main:inst|ints2                                                      ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst|inst4~0  ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst3               ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst2               ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst1               ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst                ; 1                 ; 6       ;
-;      - Main:inst|inst34                                                     ; 1                 ; 6       ;
-;      - Main:inst|inst46~0                                                   ; 1                 ; 6       ;
-;      - isdisplay:inst15|inst50                                              ; 1                 ; 6       ;
-;      - inst18~0                                                             ; 1                 ; 6       ;
-;      - isdisplay:inst13|inst50                                              ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst5|inst1~2 ; 1                 ; 6       ;
-;      - isdisplay:inst8|inst10~3                                             ; 1                 ; 6       ;
-;      - isdisplay:inst17|inst10~2                                            ; 1                 ; 6       ;
-;      - isdisplay:inst17|inst12                                              ; 1                 ; 6       ;
-;      - isdisplay:inst14|inst5~3                                             ; 1                 ; 6       ;
-;      - isdisplay:inst14|inst9                                               ; 1                 ; 6       ;
-;      - isdisplay:inst14|inst12                                              ; 1                 ; 6       ;
-;      - isdisplay:inst16|inst5~3                                             ; 1                 ; 6       ;
-;      - isdisplay:inst16|inst9                                               ; 1                 ; 6       ;
-;      - isdisplay:inst16|inst12                                              ; 1                 ; 6       ;
-;      - Main:inst|inst50~0                                                   ; 1                 ; 6       ;
-;      - Main:inst|inst24~4                                                   ; 1                 ; 6       ;
-; M[1]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~6                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst19~8                                                   ; 0                 ; 6       ;
-;      - Main:inst|ints2                                                      ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst|inst4~0  ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst3               ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst2               ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst1               ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst                ; 0                 ; 6       ;
-;      - Main:inst|inst34                                                     ; 0                 ; 6       ;
-;      - Main:inst|inst46~0                                                   ; 0                 ; 6       ;
-;      - isdisplay:inst15|inst50                                              ; 0                 ; 6       ;
-;      - inst18~0                                                             ; 0                 ; 6       ;
-;      - isdisplay:inst13|inst50                                              ; 0                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst5|inst1~2 ; 0                 ; 6       ;
-;      - isdisplay:inst8|inst10~3                                             ; 0                 ; 6       ;
-;      - isdisplay:inst17|inst10~2                                            ; 0                 ; 6       ;
-;      - isdisplay:inst17|inst12                                              ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst5~3                                             ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst9                                               ; 0                 ; 6       ;
-;      - isdisplay:inst14|inst12                                              ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst5~3                                             ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst9                                               ; 0                 ; 6       ;
-;      - isdisplay:inst16|inst12                                              ; 0                 ; 6       ;
-;      - Main:inst|inst50~0                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst24~4                                                   ; 0                 ; 6       ;
-;      - Main:inst|inst24~5                                                   ; 0                 ; 6       ;
-; M[0]                                                                        ;                   ;         ;
-;      - Main:inst|inst19~6                                                   ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst|inst4~0  ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst3               ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst2               ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst1               ; 1                 ; 6       ;
-;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst                ; 1                 ; 6       ;
-;      - Main:inst|inst34                                                     ; 1                 ; 6       ;
-;      - Main:inst|inst46~0                                                   ; 1                 ; 6       ;
-;      - isdisplay:inst8|inst10~3                                             ; 1                 ; 6       ;
-;      - isdisplay:inst17|inst10~2                                            ; 1                 ; 6       ;
-;      - isdisplay:inst17|inst12                                              ; 1                 ; 6       ;
-;      - Main:inst|inst50~0                                                   ; 1                 ; 6       ;
-;      - Main:inst|inst24~5                                                   ; 1                 ; 6       ;
-+-----------------------------------------------------------------------------+-------------------+---------+
++----------------------------------------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                                                           ;
++----------------------------------------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                                                        ; Pad To Core Index ; Setting ;
++----------------------------------------------------------------------------+-------------------+---------+
+; M[2]                                                                       ;                   ;         ;
+;      - Main:inst|inst19~0                                                  ; 1                 ; 6       ;
+;      - Main:inst|inst19~7                                                  ; 1                 ; 6       ;
+;      - Main:inst|ints2                                                     ; 1                 ; 6       ;
+;      - Main:inst|inst14                                                    ; 1                 ; 6       ;
+;      - Main:inst|inst34                                                    ; 1                 ; 6       ;
+;      - Main:inst|inst46~0                                                  ; 1                 ; 6       ;
+;      - Main:inst|inst50~0                                                  ; 1                 ; 6       ;
+;      - inst18~0                                                            ; 1                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst2              ; 1                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst1              ; 1                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst               ; 1                 ; 6       ;
+;      - isdisplay:inst8|inst10~3                                            ; 1                 ; 6       ;
+;      - isdisplay:inst17|inst10~2                                           ; 1                 ; 6       ;
+;      - isdisplay:inst17|inst12                                             ; 1                 ; 6       ;
+;      - isdisplay:inst15|inst50                                             ; 1                 ; 6       ;
+;      - isdisplay:inst15|inst5~4                                            ; 1                 ; 6       ;
+;      - isdisplay:inst13|inst50                                             ; 1                 ; 6       ;
+;      - isdisplay:inst13|inst5~4                                            ; 1                 ; 6       ;
+;      - isdisplay:inst14|inst5~3                                            ; 1                 ; 6       ;
+;      - isdisplay:inst14|inst9                                              ; 1                 ; 6       ;
+;      - isdisplay:inst14|inst11~3                                           ; 1                 ; 6       ;
+;      - isdisplay:inst14|inst12                                             ; 1                 ; 6       ;
+;      - isdisplay:inst16|inst5~3                                            ; 1                 ; 6       ;
+;      - isdisplay:inst16|inst9                                              ; 1                 ; 6       ;
+;      - isdisplay:inst16|inst11~3                                           ; 1                 ; 6       ;
+;      - isdisplay:inst16|inst12                                             ; 1                 ; 6       ;
+; M[1]                                                                       ;                   ;         ;
+;      - Main:inst|inst19~0                                                  ; 0                 ; 6       ;
+;      - Main:inst|inst19~7                                                  ; 0                 ; 6       ;
+;      - Main:inst|ints2                                                     ; 0                 ; 6       ;
+;      - Main:inst|inst14                                                    ; 0                 ; 6       ;
+;      - Main:inst|inst34                                                    ; 0                 ; 6       ;
+;      - Main:inst|inst46~0                                                  ; 0                 ; 6       ;
+;      - Main:inst|inst50~0                                                  ; 0                 ; 6       ;
+;      - inst18~0                                                            ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst2              ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst1              ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst               ; 0                 ; 6       ;
+;      - isdisplay:inst8|inst10~3                                            ; 0                 ; 6       ;
+;      - isdisplay:inst17|inst10~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst17|inst12                                             ; 0                 ; 6       ;
+;      - isdisplay:inst15|inst50                                             ; 0                 ; 6       ;
+;      - isdisplay:inst15|inst5~4                                            ; 0                 ; 6       ;
+;      - isdisplay:inst13|inst50                                             ; 0                 ; 6       ;
+;      - isdisplay:inst13|inst5~4                                            ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst5~3                                            ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst9                                              ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst11~3                                           ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst12                                             ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst5~3                                            ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst9                                              ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst11~3                                           ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst12                                             ; 0                 ; 6       ;
+; K[0]                                                                       ;                   ;         ;
+;      - AURA2:inst1|inst14                                                  ; 0                 ; 6       ;
+;      - AURA2:inst1|Adder:inst4|inst1~0                                     ; 0                 ; 6       ;
+;      - AURA2:inst1|Adder:inst6|inst1                                       ; 0                 ; 6       ;
+;      - AURA2:inst1|Adder:inst5|inst1                                       ; 0                 ; 6       ;
+;      - Main:inst|inst19~5                                                  ; 0                 ; 6       ;
+;      - Main:inst|inst19~6                                                  ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst|inst4~0 ; 0                 ; 6       ;
+;      - Main:inst|inst30                                                    ; 0                 ; 6       ;
+;      - Main:inst|inst24~0                                                  ; 0                 ; 6       ;
+;      - Main:inst|inst24                                                    ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst5~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst6                                              ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst8                                              ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst9~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst10                                             ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst11~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst12~2                                           ; 0                 ; 6       ;
+; L[0]                                                                       ;                   ;         ;
+;      - AURA2:inst5|inst14                                                  ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst4|inst1~0                                     ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst6|inst1                                       ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst5|inst1                                       ; 0                 ; 6       ;
+;      - Main:inst|inst19~5                                                  ; 0                 ; 6       ;
+;      - Main:inst|inst19~6                                                  ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|adder5bits:inst|Adder:inst|inst4~0 ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst3              ; 0                 ; 6       ;
+;      - Main:inst|inst30                                                    ; 0                 ; 6       ;
+;      - Main:inst|inst24~0                                                  ; 0                 ; 6       ;
+;      - Main:inst|inst24                                                    ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst5~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst6                                              ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst8                                              ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst9~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst10                                             ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst11~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst12~2                                           ; 0                 ; 6       ;
+; K[4]                                                                       ;                   ;         ;
+;      - AURA2:inst1|inst14                                                  ; 1                 ; 6       ;
+;      - AURA2:inst1|Adder:inst4|inst1~0                                     ; 1                 ; 6       ;
+;      - AURA2:inst1|Adder:inst6|inst1                                       ; 1                 ; 6       ;
+;      - AURA2:inst1|Adder:inst5|inst1                                       ; 1                 ; 6       ;
+; K[3]                                                                       ;                   ;         ;
+;      - AURA2:inst1|inst14                                                  ; 0                 ; 6       ;
+;      - AURA2:inst1|Adder:inst6|inst1                                       ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst5~2                                            ; 0                 ; 6       ;
+;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~0                       ; 0                 ; 6       ;
+;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~0                       ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst9~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst11~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst12~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst13|inst5~4                                            ; 0                 ; 6       ;
+; K[2]                                                                       ;                   ;         ;
+;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~0                       ; 0                 ; 6       ;
+;      - AURA2:inst1|Adder:inst5|inst1                                       ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst5~2                                            ; 0                 ; 6       ;
+;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~0                       ; 0                 ; 6       ;
+;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~0                       ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst9~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst11~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst14|inst12~2                                           ; 0                 ; 6       ;
+; K[1]                                                                       ;                   ;         ;
+;      - decoder:inst2|SixBitsToBcdMain:inst2|inst19~0                       ; 1                 ; 6       ;
+;      - AURA2:inst1|Adder:inst4|inst1~0                                     ; 1                 ; 6       ;
+;      - AURA2:inst1|Adder:inst5|inst1                                       ; 1                 ; 6       ;
+;      - isdisplay:inst14|inst5~2                                            ; 1                 ; 6       ;
+;      - decoder:inst2|SixBitsToBcdMain:inst2|inst20~0                       ; 1                 ; 6       ;
+;      - decoder:inst2|SixBitsToBcdMain:inst2|inst21~0                       ; 1                 ; 6       ;
+;      - isdisplay:inst14|inst9~2                                            ; 1                 ; 6       ;
+;      - isdisplay:inst14|inst11~2                                           ; 1                 ; 6       ;
+;      - isdisplay:inst14|inst12~2                                           ; 1                 ; 6       ;
+; L[4]                                                                       ;                   ;         ;
+;      - AURA2:inst5|inst14                                                  ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst4|inst1~0                                     ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst6|inst1                                       ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst5|inst1                                       ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst3              ; 0                 ; 6       ;
+; L[3]                                                                       ;                   ;         ;
+;      - AURA2:inst5|inst14                                                  ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst6|inst1                                       ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst5~2                                            ; 0                 ; 6       ;
+;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~0                       ; 0                 ; 6       ;
+;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~0                       ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst9~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst11~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst12~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst15|inst5~4                                            ; 0                 ; 6       ;
+; L[2]                                                                       ;                   ;         ;
+;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~0                       ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst5|inst1                                       ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst5~2                                            ; 0                 ; 6       ;
+;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~0                       ; 0                 ; 6       ;
+;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~0                       ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst9~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst11~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst12~2                                           ; 0                 ; 6       ;
+; L[1]                                                                       ;                   ;         ;
+;      - decoder:inst3|SixBitsToBcdMain:inst2|inst19~0                       ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst4|inst1~0                                     ; 0                 ; 6       ;
+;      - AURA2:inst5|Adder:inst5|inst1                                       ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst3              ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst5~2                                            ; 0                 ; 6       ;
+;      - decoder:inst3|SixBitsToBcdMain:inst2|inst20~0                       ; 0                 ; 6       ;
+;      - decoder:inst3|SixBitsToBcdMain:inst2|inst21~0                       ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst9~2                                            ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst11~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst16|inst12~2                                           ; 0                 ; 6       ;
+; M[0]                                                                       ;                   ;         ;
+;      - Main:inst|inst19~0                                                  ; 0                 ; 6       ;
+;      - Main:inst|inst14                                                    ; 0                 ; 6       ;
+;      - Main:inst|inst34                                                    ; 0                 ; 6       ;
+;      - Main:inst|inst46~0                                                  ; 0                 ; 6       ;
+;      - Main:inst|inst50~0                                                  ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst2              ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst1              ; 0                 ; 6       ;
+;      - Main:inst|Adder_Subtrator:inst15|complement:comp|inst               ; 0                 ; 6       ;
+;      - isdisplay:inst8|inst10~3                                            ; 0                 ; 6       ;
+;      - isdisplay:inst17|inst10~2                                           ; 0                 ; 6       ;
+;      - isdisplay:inst17|inst12                                             ; 0                 ; 6       ;
++----------------------------------------------------------------------------+-------------------+---------+
 
 
 +-------------------------------------------------+
@@ -1639,14 +1621,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-------------------------+
 ; Routing Resource Type ; Usage                   ;
 +-----------------------+-------------------------+
-; Block interconnects   ; 158 / 342,891 ( < 1 % ) ;
-; C16 interconnects     ; 21 / 10,120 ( < 1 % )   ;
-; C4 interconnects      ; 277 / 209,544 ( < 1 % ) ;
-; Direct links          ; 7 / 342,891 ( < 1 % )   ;
+; Block interconnects   ; 167 / 342,891 ( < 1 % ) ;
+; C16 interconnects     ; 30 / 10,120 ( < 1 % )   ;
+; C4 interconnects      ; 280 / 209,544 ( < 1 % ) ;
+; Direct links          ; 17 / 342,891 ( < 1 % )  ;
 ; Global clocks         ; 0 / 20 ( 0 % )          ;
-; Local interconnects   ; 72 / 119,088 ( < 1 % )  ;
-; R24 interconnects     ; 38 / 9,963 ( < 1 % )    ;
-; R4 interconnects      ; 155 / 289,782 ( < 1 % ) ;
+; Local interconnects   ; 57 / 119,088 ( < 1 % )  ;
+; R24 interconnects     ; 43 / 9,963 ( < 1 % )    ;
+; R4 interconnects      ; 119 / 289,782 ( < 1 % ) ;
 +-----------------------+-------------------------+
 
 
@@ -1655,22 +1637,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------+------------------------------+
 ; Number of Logic Elements  (Average = 12.18) ; Number of LABs  (Total = 11) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 2                            ;
+; 1                                           ; 1                            ;
 ; 2                                           ; 0                            ;
-; 3                                           ; 0                            ;
+; 3                                           ; 1                            ;
 ; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
 ; 7                                           ; 0                            ;
-; 8                                           ; 1                            ;
+; 8                                           ; 0                            ;
 ; 9                                           ; 0                            ;
 ; 10                                          ; 0                            ;
-; 11                                          ; 0                            ;
-; 12                                          ; 0                            ;
-; 13                                          ; 0                            ;
-; 14                                          ; 2                            ;
-; 15                                          ; 0                            ;
-; 16                                          ; 6                            ;
+; 11                                          ; 1                            ;
+; 12                                          ; 1                            ;
+; 13                                          ; 1                            ;
+; 14                                          ; 0                            ;
+; 15                                          ; 2                            ;
+; 16                                          ; 4                            ;
 +---------------------------------------------+------------------------------+
 
 
@@ -1680,66 +1662,71 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of Signals Sourced  (Average = 12.18) ; Number of LABs  (Total = 11) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 2                            ;
+; 1                                            ; 1                            ;
 ; 2                                            ; 0                            ;
-; 3                                            ; 0                            ;
+; 3                                            ; 1                            ;
 ; 4                                            ; 0                            ;
 ; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
 ; 7                                            ; 0                            ;
-; 8                                            ; 1                            ;
+; 8                                            ; 0                            ;
 ; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
-; 11                                           ; 0                            ;
-; 12                                           ; 0                            ;
-; 13                                           ; 0                            ;
-; 14                                           ; 2                            ;
-; 15                                           ; 0                            ;
-; 16                                           ; 6                            ;
+; 11                                           ; 1                            ;
+; 12                                           ; 1                            ;
+; 13                                           ; 1                            ;
+; 14                                           ; 0                            ;
+; 15                                           ; 2                            ;
+; 16                                           ; 4                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 6.64) ; Number of LABs  (Total = 11) ;
+; Number of Signals Sourced Out  (Average = 7.45) ; Number of LABs  (Total = 11) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 2                            ;
+; 1                                               ; 1                            ;
 ; 2                                               ; 0                            ;
-; 3                                               ; 0                            ;
+; 3                                               ; 1                            ;
 ; 4                                               ; 1                            ;
 ; 5                                               ; 1                            ;
-; 6                                               ; 1                            ;
+; 6                                               ; 0                            ;
 ; 7                                               ; 1                            ;
-; 8                                               ; 2                            ;
-; 9                                               ; 0                            ;
-; 10                                              ; 0                            ;
-; 11                                              ; 3                            ;
+; 8                                               ; 1                            ;
+; 9                                               ; 1                            ;
+; 10                                              ; 1                            ;
+; 11                                              ; 2                            ;
+; 12                                              ; 0                            ;
+; 13                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 8.91) ; Number of LABs  (Total = 11) ;
+; Number of Distinct Inputs  (Average = 9.45) ; Number of LABs  (Total = 11) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
 ; 1                                           ; 0                            ;
 ; 2                                           ; 0                            ;
-; 3                                           ; 0                            ;
-; 4                                           ; 2                            ;
-; 5                                           ; 1                            ;
+; 3                                           ; 1                            ;
+; 4                                           ; 1                            ;
+; 5                                           ; 0                            ;
 ; 6                                           ; 1                            ;
-; 7                                           ; 0                            ;
-; 8                                           ; 1                            ;
-; 9                                           ; 0                            ;
-; 10                                          ; 2                            ;
-; 11                                          ; 1                            ;
-; 12                                          ; 1                            ;
-; 13                                          ; 1                            ;
+; 7                                           ; 1                            ;
+; 8                                           ; 3                            ;
+; 9                                           ; 1                            ;
+; 10                                          ; 0                            ;
+; 11                                          ; 0                            ;
+; 12                                          ; 0                            ;
+; 13                                          ; 0                            ;
 ; 14                                          ; 0                            ;
-; 15                                          ; 1                            ;
+; 15                                          ; 0                            ;
+; 16                                          ; 1                            ;
+; 17                                          ; 1                            ;
+; 18                                          ; 1                            ;
 +---------------------------------------------+------------------------------+
 
 
@@ -1859,18 +1846,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Z[2]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; Z[1]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; Z[0]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A[0]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B[0]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A[1]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B[1]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A[3]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B[3]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A[4]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B[4]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A[2]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B[2]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; M[2]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; M[1]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; K[0]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; L[0]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; K[4]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; K[3]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; K[2]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; K[1]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; L[4]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; L[3]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; L[2]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; L[1]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; M[0]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
@@ -1976,23 +1963,23 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.14 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.13 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/output_files/aura.fit.smsg
+Info (144001): Generated suppressed messages file D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/output_files/aura.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 6852 megabytes
-    Info: Processing ended: Thu Sep 24 08:19:53 2026
-    Info: Elapsed time: 00:00:08
+    Info: Processing ended: Tue Sep 29 16:49:15 2026
+    Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:15
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/output_files/aura.fit.smsg.
+The suppressed messages can be found in D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/output_files/aura.fit.smsg.
 
 
