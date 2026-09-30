@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Tue Sep 29 16:49:07 2026
+Analysis & Synthesis Status : Successful - Wed Sep 30 10:05:17 2026
 Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 Revision Name : aura
 Top-level Entity Name : THEPROJECT
 Family : Cyclone IV E
-Total logic elements : 134
-    Total combinational functions : 134
+Total logic elements : 151
+    Total combinational functions : 151
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 68
+Total pins : 79
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

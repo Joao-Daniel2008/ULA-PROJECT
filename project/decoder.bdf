@@ -4,9 +4,9 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2017  Intel Corporation. All rights reserved.
+Copyright (C) 2022  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -16,7 +16,8 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -90,7 +91,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 536 240 664 336)
+	(rect 536 232 664 328)
 	(text "SixBitsToBcdMain" (rect 5 0 108 13)(font "DejaVu Sans Condensed" (font_size 8)))
 	(text "inst2" (rect 8 82 30 99)(font "Intel Clear" ))
 	(port
@@ -151,12 +152,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (connector
-	(text "A[5..0]" (rect 509 256 539 273)(font "Intel Clear" ))
-	(pt 536 272)
-	(pt 488 272)
-	(bus)
-)
-(connector
 	(text "C[7..0]" (rect 880 384 910 401)(font "Intel Clear" ))
 	(pt 872 400)
 	(pt 896 400)
@@ -166,22 +161,6 @@ refer to the applicable agreement for further details.
 	(text "D[7..0]" (rect 981 224 1011 241)(font "Intel Clear" ))
 	(pt 968 240)
 	(pt 1000 240)
-	(bus)
-)
-(connector
-	(pt 672 240)
-	(pt 672 272)
-	(bus)
-)
-(connector
-	(pt 672 272)
-	(pt 672 400)
-	(bus)
-)
-(connector
-	(text "S[5..0]" (rect 665 256 694 273)(font "Intel Clear" ))
-	(pt 664 272)
-	(pt 672 272)
 	(bus)
 )
 (connector
@@ -201,4 +180,36 @@ refer to the applicable agreement for further details.
 	(pt 352 504)
 	(pt 352 480)
 )
-(junction (pt 672 272))
+(connector
+	(pt 496 272)
+	(pt 496 264)
+	(bus)
+)
+(connector
+	(pt 488 272)
+	(pt 496 272)
+	(bus)
+)
+(connector
+	(text "A[5..0]" (rect 509 248 539 265)(font "Intel Clear" ))
+	(pt 496 264)
+	(pt 536 264)
+	(bus)
+)
+(connector
+	(text "S[5..0]" (rect 665 248 694 265)(font "Intel Clear" ))
+	(pt 672 264)
+	(pt 664 264)
+	(bus)
+)
+(connector
+	(pt 672 240)
+	(pt 672 264)
+	(bus)
+)
+(connector
+	(pt 672 264)
+	(pt 672 400)
+	(bus)
+)
+(junction (pt 672 264))

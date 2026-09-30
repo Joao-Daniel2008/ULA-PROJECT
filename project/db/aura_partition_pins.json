@@ -8,6 +8,58 @@
 					"strict" : false
 				},
 				{
+					"name" : "C[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C[0]",
+					"strict" : false
+				},
+				{
+					"name" : "J[4]",
+					"strict" : false
+				},
+				{
+					"name" : "J[3]",
+					"strict" : false
+				},
+				{
+					"name" : "J[2]",
+					"strict" : false
+				},
+				{
+					"name" : "J[1]",
+					"strict" : false
+				},
+				{
+					"name" : "J[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[0]",
+					"strict" : false
+				},
+				{
 					"name" : "S[5]",
 					"strict" : false
 				},
@@ -89,10 +141,6 @@
 				},
 				{
 					"name" : "V[0]",
-					"strict" : false
-				},
-				{
-					"name" : "W[7]",
 					"strict" : false
 				},
 				{
@@ -204,6 +252,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "L[3]",
+					"strict" : false
+				},
+				{
 					"name" : "M[2]",
 					"strict" : false
 				},
@@ -212,7 +264,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "K[0]",
+					"name" : "L[4]",
+					"strict" : false
+				},
+				{
+					"name" : "L[2]",
+					"strict" : false
+				},
+				{
+					"name" : "L[1]",
 					"strict" : false
 				},
 				{
@@ -220,11 +280,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "K[4]",
+					"name" : "K[3]",
 					"strict" : false
 				},
 				{
-					"name" : "K[3]",
+					"name" : "K[4]",
 					"strict" : false
 				},
 				{
@@ -236,19 +296,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "L[4]",
-					"strict" : false
-				},
-				{
-					"name" : "L[3]",
-					"strict" : false
-				},
-				{
-					"name" : "L[2]",
-					"strict" : false
-				},
-				{
-					"name" : "L[1]",
+					"name" : "K[0]",
 					"strict" : false
 				},
 				{

@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("D:/Users/mgbh/Documents/GitHub/ULA-PROJECT/project/output_files/") File("aura.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("D:/Users/jdmm/Documents/GitHub/ULA-PROJECT/project/output_files/") File("aura.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
